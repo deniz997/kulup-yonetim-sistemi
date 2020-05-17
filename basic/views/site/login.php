@@ -5,8 +5,8 @@
 
 /* @var $model app\models\LoginForm */
 
-use yii\bootstrap4\ActiveForm;
 use yii\helpers\Html;
+use yii\bootstrap4\ActiveForm;
 
 $this->title = 'Login';
 $this->params['breadcrumbs'][] = $this->title;
@@ -43,7 +43,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                         'labelOptions' => ['class' => 'container'],
                                         'errorOptions' => ['class' => 'help-block', 'style' => 'color:red']
                                     ],
-//                                    'options' => ['class' => 'user']
+                                    'options' => ['class' => 'user']
                                 ]); ?>
 
                                 <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
@@ -52,9 +52,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                                 <div class="container">
                                 <?= $form->field($model, 'rememberMe')->checkbox([
-                                    'template' => "<div class=\"custom-control-input is-valid\">{input} {label}</div>",
-                                    'label' => 'Merhabalar aq'
-
+                                    'template' => "<div class=\"\">{input} {label}</div>",
                                 ]) ?>
 
                                 <div class="form-group">
