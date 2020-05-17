@@ -2,6 +2,7 @@
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap4\ActiveForm */
+
 /* @var $model app\models\LoginForm */
 
 use yii\helpers\Html;
@@ -10,38 +11,70 @@ use yii\bootstrap4\ActiveForm;
 $this->title = 'Login';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+
+
 <div class="site-login">
-    <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>Please fill out the following fields to login:</p>
+    <div class="container">
+    <div class="row justify-content-center">
 
-    <?php $form = ActiveForm::begin([
-        'id' => 'login-form',
-        'layout' => 'horizontal',
-        'fieldConfig' => [
-            'template' => "{label}\n<div class=\"col-lg-3\">{input}</div>\n<div class=\"col-lg-8\">{error}</div>",
-            'labelOptions' => ['class' => 'col-lg-1 control-label'],
-        ],
-    ]); ?>
+        <div class="col-xl-10 col-lg-12 col-md-9">
 
-        <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
+            <div class="card o-hidden border-0 shadow-lg my-5">
+                <div class="card-body p-0">
+                    <!-- Nested Row within Card Body -->
+                    <div class="row">
+                        <div class="col-lg-6 d-none d-lg-block">
+                            <div class="jumbotron row align-items-center h-100 ml-auto">
+                            <img  src="http://3fcampus.tau.edu.tr/uploads/cms/pr.tau/5566_4_th.png">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="p-5">
+                                <div class="text-center">
+                                    <h1 class="h1 text-gray-900 mb-4">Giriş</h1>
+                                </div>
 
-        <?= $form->field($model, 'password')->passwordInput() ?>
+                                <?php $form = ActiveForm::begin([
+                                    'id' => 'login-form',
+                                    'layout' => 'horizontal',
+                                    'fieldConfig' => [
+                                        'template' => "{label}\n<div class=\"container has-error\">{input}</div>\n<div class=\" \">{error}</div>",
+                                        'labelOptions' => ['class' => 'container'],
+                                        'errorOptions' => ['class' => 'help-block']
+                                    ],
+                                    'options' => ['class' => 'user']
+                                ]); ?>
 
-        <?= $form->field($model, 'rememberMe')->checkbox([
-            'template' => "<div class=\"col-lg-offset-1 col-lg-3\">{input} {label}</div>\n<div class=\"col-lg-8\">{error}</div>",
-        ]) ?>
+                                <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
 
-        <div class="form-group">
-            <div class="col-lg-offset-1 col-lg-11">
-                <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
+                                <?= $form->field($model, 'password')->passwordInput() ?>
+
+                                <div class="container">
+                                <?= $form->field($model, 'rememberMe')->checkbox([
+                                    'template' => "<div class=\"custom-control custom-checkbox medium\">{input} {label}</div>\n<div class=\"container small\">{error}</div>",
+
+                                ]) ?>
+
+                                <div class="form-group">
+                                        <?= Html::submitButton('Login', ['class' => 'btn btn-primary btn-user btn-block', 'name' => 'login-button']) ?>
+                                </div>
+                                </div>
+                                <?php ActiveForm::end(); ?>
+
+<!--                                <div class="col-lg-offset-1" style="color:#999;">-->
+<!--                                    You may login with <strong>admin/admin</strong> or <strong>demo/demo</strong>.<br>-->
+<!--                                    To modify the username/password, please check out the code <code>app\models\User::$users</code>.-->
+<!--                                </div>-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
 
-    <?php ActiveForm::end(); ?>
-
-    <div class="col-lg-offset-1" style="color:#999;">
-        You may login with <strong>admin/admin</strong> or <strong>demo/demo</strong>.<br>
-        To modify the username/password, please check out the code <code>app\models\User::$users</code>.
+    </div>
     </div>
 </div>
