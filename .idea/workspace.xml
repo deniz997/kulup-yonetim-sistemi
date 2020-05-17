@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/hakan" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="Db bilgileri eklendi">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/models/Department.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/models/DepartmentQuery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/models/Faculty.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/models/FacultyQuery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/models/Kulupler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/models/KuluplerQuery.php" afterDir="false" />
+    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="Modeller eklendi.">
       <change beforePath="$PROJECT_DIR$/.idea/kulüp-yönetim-sistemi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kulüp-yönetim-sistemi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/config/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/views/site/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +55,6 @@
       <path value="$PROJECT_DIR$/basic/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/basic/vendor/behat/gherkin" />
       <path value="$PROJECT_DIR$/basic/vendor/ezyang/htmlpurifier" />
-      <path value="$PROJECT_DIR$/basic/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/basic/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/basic/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/basic/vendor/phar-io/version" />
@@ -59,23 +74,17 @@
       <path value="$PROJECT_DIR$/basic/vendor/symfony/event-dispatcher-contracts" />
       <path value="$PROJECT_DIR$/basic/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-iconv" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-intl-idn" />
       <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/basic/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/basic/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/basic/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2" />
-      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-bootstrap" />
       <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-composer" />
       <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-debug" />
       <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-faker" />
       <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-gii" />
-      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-swiftmailer" />
       <path value="$PROJECT_DIR$/basic/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/basic/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/basic/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/basic/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/basic/vendor/sebastian/comparator" />
@@ -92,7 +101,6 @@
       <path value="$PROJECT_DIR$/basic/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/basic/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/basic/vendor/guzzlehttp/psr7" />
-      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/bootstrap" />
       <path value="$PROJECT_DIR$/basic/vendor/bower-asset/inputmask" />
       <path value="$PROJECT_DIR$/basic/vendor/bower-asset/jquery" />
       <path value="$PROJECT_DIR$/basic/vendor/bower-asset/punycode" />
@@ -107,11 +115,12 @@
       <path value="$PROJECT_DIR$/basic/vendor/codeception/specify" />
       <path value="$PROJECT_DIR$/basic/vendor/codeception/stub" />
       <path value="$PROJECT_DIR$/basic/vendor/codeception/verify" />
-      <path value="$PROJECT_DIR$/basic/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/basic/vendor/composer" />
+      <path value="$PROJECT_DIR$/basic/vendor/npm-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-bootstrap4" />
     </include_path>
   </component>
   <component name="ProjectId" id="1c0CsTgq1Gd6vMHP0TKVPvld66F" />
@@ -142,7 +151,7 @@
       <updated>1589656331026</updated>
       <workItem from="1589656332631" duration="568000" />
       <workItem from="1589681159792" duration="170000" />
-      <workItem from="1589738611013" duration="3698000" />
+      <workItem from="1589738611013" duration="5003000" />
     </task>
     <task id="LOCAL-00001" summary="Db bilgileri eklendi">
       <created>1589681229942</created>
@@ -151,18 +160,49 @@
       <option name="project" value="LOCAL" />
       <updated>1589681229942</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modeller eklendi.">
+      <created>1589742471549</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589742471549</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/hakan" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Db bilgileri eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Db bilgileri eklendi" />
+    <MESSAGE value="Modeller eklendi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modeller eklendi." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -172,19 +212,28 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589739851614" />
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1589740126192">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1589742329245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1529" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589681229322" />
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589740126192" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589742329245" />
     <state x="532" y="323" key="ComposerInitDialogKey" timestamp="1589739431618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="532" y="323" key="ComposerInitDialogKey/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589739431618" />
-    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2" timestamp="1589681233561">
-      <screen x="-1920" y="0" width="1536" height="824" />
+    <state x="177" y="83" key="MergeDialog" timestamp="1589742598150">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="177" y="83" key="MergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589742598150" />
+    <state x="370" y="114" width="855" height="632" key="MultipleFileMergeDialog" timestamp="1589742601910">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="114" width="855" height="632" key="MultipleFileMergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589742601910" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1589742474529">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589681233561" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589742474529" />
     <state x="-1343" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589738808806">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>

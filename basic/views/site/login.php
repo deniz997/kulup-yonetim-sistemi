@@ -5,8 +5,8 @@
 
 /* @var $model app\models\LoginForm */
 
-use yii\helpers\Html;
 use yii\bootstrap4\ActiveForm;
+use yii\helpers\Html;
 
 $this->title = 'Login';
 $this->params['breadcrumbs'][] = $this->title;
@@ -53,6 +53,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                 <div class="container">
                                 <?= $form->field($model, 'rememberMe')->checkbox([
                                     'template' => "<div class=\"custom-control-input is-valid\">{input} {label}</div>",
+                                    'label' => 'Merhabalar aq'
 
                                 ]) ?>
 
