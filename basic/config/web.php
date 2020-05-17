@@ -48,6 +48,8 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '/home' => '/site/index',
+                '/<action>' => 'site/<action>'
             ],
         ],
 
