@@ -39,11 +39,11 @@ $this->params['breadcrumbs'][] = $this->title;
                                     'id' => 'login-form',
                                     'layout' => 'horizontal',
                                     'fieldConfig' => [
-                                        'template' => "{label}\n<div class=\"container has-error\">{input}</div>\n<div class=\" \">{error}</div>",
+                                        'template' => "{label}\n<div class=\"container has-error\">{input}</div>\n<div class=\"mt-2 container\">{error}</div>",
                                         'labelOptions' => ['class' => 'container'],
-                                        'errorOptions' => ['class' => 'help-block']
+                                        'errorOptions' => ['class' => 'help-block', 'style' => 'color:red']
                                     ],
-                                    'options' => ['class' => 'user']
+//                                    'options' => ['class' => 'user']
                                 ]); ?>
 
                                 <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
@@ -52,7 +52,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                                 <div class="container">
                                 <?= $form->field($model, 'rememberMe')->checkbox([
-                                    'template' => "<div class=\"custom-control custom-checkbox medium\">{input} {label}</div>\n<div class=\"container small\">{error}</div>",
+                                    'template' => "<div class=\"custom-control-input is-valid\">{input} {label}</div>",
 
                                 ]) ?>
 

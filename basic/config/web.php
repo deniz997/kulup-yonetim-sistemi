@@ -43,7 +43,19 @@ $config = [
                 ],
             ],
         ],
+
         'db' => $db,
+
+        'assetManager' => [
+            'bundles' => [
+                \yii\bootstrap4\BootstrapAsset::class => [
+                    'css' => [
+                        '/css/sb-admin-2.min.css',
+                        'css/site.css'
+                    ]
+                ]
+            ]
+        ],
 
         'urlManager' => [
             'enablePrettyUrl' => true,
