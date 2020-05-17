@@ -43,7 +43,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                         'labelOptions' => ['class' => 'container'],
                                         'errorOptions' => ['class' => 'help-block', 'style' => 'color:red']
                                     ],
-//                                    'options' => ['class' => 'user']
+                                    'options' => ['class' => 'user']
                                 ]); ?>
 
                                 <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
@@ -52,8 +52,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                                 <div class="container">
                                 <?= $form->field($model, 'rememberMe')->checkbox([
-                                    'template' => "<div class=\"custom-control-input is-valid\">{input} {label}</div>",
-
+                                    'template' => "<div class=\"\">{input} {label}</div>",
                                 ]) ?>
 
                                 <div class="form-group">
