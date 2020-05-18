@@ -76,6 +76,8 @@
       <path value="$PROJECT_DIR$/basic/vendor/composer" />
       <path value="$PROJECT_DIR$/basic/vendor/almasaeed2010/adminlte" />
       <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/slick-carousel" />
+      <path value="$PROJECT_DIR$/basic/vendor/evgeniyrru/yii2-slick" />
     </include_path>
   </component>
 </project>
