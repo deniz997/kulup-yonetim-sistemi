@@ -14,7 +14,8 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "yiisoft/yii2-bootstrap4": "^2.0"
+      "yiisoft/yii2-bootstrap4": "^2.0",
+      "evgeniyrru/yii2-slick": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

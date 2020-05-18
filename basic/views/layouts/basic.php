@@ -5,7 +5,7 @@ use app\widgets\Alert;
 
 $this->beginContent('@app/views/layouts/main.php'); ?>
 
-<div class="container">
+<div class="container my-4">
 
     <?= Alert::widget() ?>
 

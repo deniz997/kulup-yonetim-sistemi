@@ -2,18 +2,18 @@
 
 namespace app\controllers;
 
+use app\models\LoginForm;
 use Yii;
 use yii\filters\AccessControl;
+use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\Response;
-use yii\filters\VerbFilter;
-use app\models\LoginForm;
-use app\models\ContactForm;
 
 class SiteController extends Controller
 {
 
     public $layout = 'basic';
+
     /**
      * {@inheritdoc}
      */
@@ -100,5 +100,14 @@ class SiteController extends Controller
         return $this->goHome();
     }
 
+    /**
+     * Displays Kulüpler page.
+     *
+     * @return string
+     */
 
+    public function actionKulupler()
+    {
+        return $this->render('kulupler');
+    }
 }
