@@ -1,6 +1,7 @@
 <?php
 
 /* @var $this \yii\web\View */
+
 /* @var $content string */
 
 use app\assets\AppAsset;
@@ -44,12 +45,18 @@ AppAsset::register($this);
                 Yii::$app->user->isGuest ? (
                 ['label' => 'Giriş yap', 'url' => ['/site/login']]
                 ) : (
-                        ['label' => 'Çıkış yap ('.Yii::$app->user->identity->username.')',
+                ['label' => ucfirst(Yii::$app->user->identity->username),
+                    'items' => [['label' => 'Kulüplerim', 'url' => '/kayitli-kulupler'],
+                        ['label' => 'Ayarlar', 'url' => '/ayarlar'],
+                        ['label' => 'Çıkış yap',
                             'url' => ['site/logout'],
                             'linkOptions' => [
                                 'data-method' => 'post'
-                            ]
-                        ]
+                            ]]
+                    ]
+
+
+                ]
                 )
             ],
         ]);
@@ -61,12 +68,11 @@ AppAsset::register($this);
     <?php echo $content ?>
 
 
+    <footer class="footer">
 
-<footer class="footer">
+    </footer>
 
-</footer>
-
-<?php $this->endBody() ?>
+    <?php $this->endBody() ?>
 </body>
 </html>
 <?php $this->endPage() ?>
