@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="card-deck p-3">
     <div class="card my-5 shadow-lg ">
-        <?php echo Html::img('@web/img/infx_logo.jpg', ['class' => 'card-img-top rounded-circle img-fluid w-50 mt-n5 mx-auto']) ?>
+        <?php echo Html::img('@web/kuluplogolar/1.jpg', ['class' => 'card-img-top rounded-circle img-fluid w-50 mt-n5 mx-auto']) ?>
         <div class="card-body">
             <h5 class="card-title text-center font-weight-bold">Informatix</h5>
             <small><p class="card-description text-center">Bilgisayar Mühendisliği</p>

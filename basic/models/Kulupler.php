@@ -15,6 +15,8 @@ use yii\db\ActiveRecord;
  * @property string|null $amac
  * @property string|null $faaliyet_kapsami
  * @property int|null $aktif
+ * @property string|null $logo
+ * @property string $acilis
  *
  * @property GenelKurulForm[] $genelKurulForms
  * @property KulupUye[] $kulupUyes
@@ -31,21 +33,14 @@ class Kulupler extends ActiveRecord
 
     /**
      * {@inheritdoc}
-     * @return KuluplerQuery the active query used by this AR class.
-     */
-    public static function find()
-    {
-        return new KuluplerQuery(get_called_class());
-    }
-
-    /**
-     * {@inheritdoc}
      */
     public function rules()
     {
         return [
             [['aktif'], 'integer'],
-            [['name', 'danisman_mail', 'email', 'amac', 'faaliyet_kapsami'], 'string', 'max' => 255],
+            [['acilis'], 'required'],
+            [['acilis'], 'safe'],
+            [['name', 'danisman_mail', 'email', 'amac', 'faaliyet_kapsami', 'logo'], 'string', 'max' => 255],
         ];
     }
 
@@ -62,6 +57,8 @@ class Kulupler extends ActiveRecord
             'amac' => 'Amac',
             'faaliyet_kapsami' => 'Faaliyet Kapsami',
             'aktif' => 'Aktif',
+            'logo' => 'Logo',
+            'acilis' => 'Acilis',
         ];
     }
 
@@ -83,5 +80,14 @@ class Kulupler extends ActiveRecord
     public function getKulupUyes()
     {
         return $this->hasMany(KulupUye::className(), ['kulup_id' => 'id']);
+    }
+
+    /**
+     * {@inheritdoc}
+     * @return KuluplerQuery the active query used by this AR class.
+     */
+    public static function find()
+    {
+        return new KuluplerQuery(get_called_class());
     }
 }

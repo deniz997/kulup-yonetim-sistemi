@@ -32,15 +32,6 @@ class KulupUyeler extends ActiveRecord
 
     /**
      * {@inheritdoc}
-     * @return KulupUyelerQuery the active query used by this AR class.
-     */
-    public static function find()
-    {
-        return new KulupUyelerQuery(get_called_class());
-    }
-
-    /**
-     * {@inheritdoc}
      */
     public function rules()
     {
@@ -88,5 +79,14 @@ class KulupUyeler extends ActiveRecord
     public function getOgrenci()
     {
         return $this->hasOne(Ogrenci::className(), ['id' => 'ogrenci_id']);
+    }
+
+    /**
+     * {@inheritdoc}
+     * @return KulupUyelerQuery the active query used by this AR class.
+     */
+    public static function find()
+    {
+        return new KulupUyelerQuery(get_called_class());
     }
 }
