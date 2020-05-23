@@ -4,6 +4,7 @@ namespace app\controllers;
 
 use app\models\LoginForm;
 use Yii;
+use yii\data\ActiveDataProvider;
 use yii\db\Exception;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
@@ -121,7 +122,6 @@ class SiteController extends Controller
          Left JOIN etkinlik ON kulupler.id = etkinlik.kulup_id) GROUP BY kulupler.name, kulupler.acilis, kulupler.logo
          ")->queryAll();
 
-        $kulupInfos->
 
 
         $provider = ActiveDataProvider([
