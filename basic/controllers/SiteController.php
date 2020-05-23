@@ -120,15 +120,17 @@ class SiteController extends Controller
        count(kulup_uye.kulup_id) AS \"Uye Sayisi\",
        count(etkinlik.kulup_id) AS \"Etkinlik Sayisi\"
         FROM ((kulupler Left JOIN kulup_uye  ON kulupler.id = kulup_uye.kulup_id)
-         Left JOIN etkinlik ON kulupler.id = etkinlik.kulup_id) GROUP BY kulupler.name, kulupler.acilis, kulupler.logo
+         Left JOIN etkinlik ON kulupler.id = etkinlik.kulup_id) WHERE kulup_uye.is_approved = TRUE GROUP BY kulupler.name, kulupler.acilis, kulupler.logo
+        
          ")->queryAll();
 
 
-
-        $provider = ActiveDataProvider([
+        $provider = new ActiveDataProvider([
             'query' => $kulupInfos
         ]);
-
+        echo '<pre>';
+        var_dump($provider);
+        echo '<pre>';
 
         return $this->render('kulupler');
     }
