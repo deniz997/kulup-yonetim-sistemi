@@ -1,12 +1,13 @@
 <?php
 
 /* @var $this \yii\web\View */
+
 /* @var $content string */
 
-use yii\helpers\Html;
+use app\assets\AppAsset;
 use yii\bootstrap4\Nav;
 use yii\bootstrap4\NavBar;
-use app\assets\AppAsset;
+use yii\helpers\Html;
 
 AppAsset::register($this);
 ?>
@@ -36,20 +37,25 @@ AppAsset::register($this);
 
     try {
         echo Nav::widget([
-            'options' => ['class' => 'navbar-nav ml-auto'],
+            'options' => ['class' => 'navbar-nav ml-auto align-content-right text-center'],
             'items' => [
                 ['label' => 'Anasayfa', 'url' => ['/site/index']],
-                ['label' => 'Kulüpler', 'url' => ['/site/about']],
+                ['label' => 'Kulüpler', 'url' => ['/kulupler']],
                 ['label' => 'İstatistikler', 'url' => ['/site/contact']],
                 Yii::$app->user->isGuest ? (
                 ['label' => 'Giriş yap', 'url' => ['/site/login']]
                 ) : (
-                        ['label' => 'Çıkış yap ('.Yii::$app->user->identity->username.')',
+
+                ['label' => ucfirst(Yii::$app->user->identity->username),
+                    'items' => [['label' => 'Kulüplerim', 'url' => '/kayitli-kulupler'],
+                        ['label' => 'Ayarlar', 'url' => '/ayarlar'],
+                        ['label' => 'Çıkış yap',
                             'url' => ['site/logout'],
                             'linkOptions' => [
                                 'data-method' => 'post'
-                            ]
-                        ]
+                            ]]
+                    ],
+                ]
                 )
             ],
         ]);
@@ -61,17 +67,13 @@ AppAsset::register($this);
     <?php echo $content ?>
 
 
-</div>
+    <footer class="footer">
 
-<footer class="footer">
-    <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+    </footer>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
-    </div>
-</footer>
-
-<?php $this->endBody() ?>
+    <?php $this->endBody() ?>
 </body>
 </html>
 <?php $this->endPage() ?>
+
+</div>

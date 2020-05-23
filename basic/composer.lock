@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8926c5537868b121e3a733537de455c",
+  "content-hash": "daac519ef5a3734e1210e7b17d5ffdef",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -61,6 +61,27 @@
             "type": "bower-asset"
         },
         {
+          "name": "bower-asset/slick-carousel",
+          "version": "v1.8.1",
+          "source": {
+            "type": "git",
+            "url": "https://github.com/kenwheeler/slick.git",
+            "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
+          },
+          "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kenwheeler/slick/zipball/0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
+            "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
+          },
+          "require": {
+            "bower-asset/jquery": ">=1.7"
+          },
+          "type": "bower-asset",
+          "license": [
+            "MIT"
+          ]
+        },
+      {
             "name": "bower-asset/yii2-pjax",
             "version": "2.0.7.1",
             "source": {
@@ -142,6 +163,49 @@
             "time": "2018-03-26T11:24:36+00:00"
         },
         {
+          "name": "evgeniyrru/yii2-slick",
+          "version": "1.0.4",
+          "source": {
+            "type": "git",
+            "url": "https://github.com/EvgeniyRRU/yii2-slick.git",
+            "reference": "65fb112e67a230805cac07f8c3f372b25502be2c"
+          },
+          "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/EvgeniyRRU/yii2-slick/zipball/65fb112e67a230805cac07f8c3f372b25502be2c",
+            "reference": "65fb112e67a230805cac07f8c3f372b25502be2c",
+            "shasum": ""
+          },
+          "require": {
+            "bower-asset/slick-carousel": "*",
+            "yiisoft/yii2": "*"
+          },
+          "type": "yii2-extension",
+          "autoload": {
+            "psr-4": {
+              "evgeniyrru\\yii2slick\\": ""
+            }
+          },
+          "notification-url": "https://packagist.org/downloads/",
+          "license": [
+            "MIT"
+          ],
+          "authors": [
+            {
+              "name": "Evgeniy Chernyshev",
+              "email": "EvgeniyRRU@gmail.com"
+            }
+          ],
+          "description": "Yii2 extension for Slick Carousel",
+          "keywords": [
+            "carousel",
+            "extension",
+            "widget",
+            "yii"
+          ],
+          "time": "2017-03-31T07:00:27+00:00"
+        },
+      {
             "name": "ezyang/htmlpurifier",
             "version": "v4.12.0",
             "source": {

@@ -35,6 +35,7 @@ class LoginForm extends Model
         ];
     }
 
+
     /**
      * Validates the password.
      * This method serves as the inline validation for password.
@@ -77,5 +78,10 @@ class LoginForm extends Model
         }
 
         return $this->_user;
+    }
+
+    public function attributeLabels()
+    {
+        return ['username' => 'Kullanıcı adı', 'password' => 'Parola'];
     }
 }
