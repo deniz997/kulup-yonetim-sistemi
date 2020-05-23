@@ -27,14 +27,14 @@ $this->beginContent('@app/views/layouts/main.php'); ?>
 
             <!-- Nav Item - Events -->
             <li class="nav-item active">
-                <a class="nav-link" href="kulup/etkinlikler">
+                <a class="nav-link" href="/kulup/etkinlikler">
                     <i class="far fa-calendar-alt"></i>
                     <span>Etkinlikler</span></a>
             </li>
 
             <!-- Nav Item - Events -->
             <li class="nav-item active">
-                <a class="nav-link" href="kulup/istatistikler">
+                <a class="nav-link" href="/kulup/istatistikler">
                     <i class="fas fa-chart-line"></i>
                     <span>İstatistikler</span></a>
             </li>
