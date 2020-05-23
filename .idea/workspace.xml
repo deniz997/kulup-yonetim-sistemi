@@ -26,9 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="düzelttim sıkıntılıydı">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="düzelttim sıkıntılıydı" />
     <ignored path="$PROJECT_DIR$/basic/vendor/behat/gherkin/" />
     <ignored path="$PROJECT_DIR$/basic/vendor/bower-asset/inputmask/" />
     <ignored path="$PROJECT_DIR$/basic/vendor/bower-asset/jquery/" />
@@ -146,77 +144,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/views/site/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="etkinlikler.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/views/kulup/etkinlikler.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic/views/layouts/dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="etkinlik.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/views/kulup/etkinlik.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="10" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/controllers/SiteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KulupController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/controllers/KulupController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/controllers/DashboardController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/config/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="629">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1037">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kayıitli-kulupler.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/views/site/kayıitli-kulupler.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/views/site/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/views/site/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/web/index-test.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/web/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -224,19 +202,15 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="119">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kulupler.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/views/site/kulupler.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="34" />
-            </state>
-          </provider>
+      <file leaf-file-name="error.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/views/site/error.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -249,6 +223,11 @@
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="deniz" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -294,80 +273,80 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/basic/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/basic/vendor/opis/closure" />
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/basic/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/type" />
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/diff" />
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/css-selector" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/dom-crawler" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/finder" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/event-dispatcher-contracts" />
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/recursion-context" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/basic/vendor/sebastian/global-state" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/basic/vendor/codeception/module-asserts" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/browser-kit" />
-      <path value="$PROJECT_DIR$/basic/vendor/ralouphie/getallheaders" />
-      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-php73" />
-      <path value="$PROJECT_DIR$/basic/vendor/codeception/verify" />
-      <path value="$PROJECT_DIR$/basic/vendor/codeception/codeception" />
-      <path value="$PROJECT_DIR$/basic/vendor/fzaninotto/faker" />
-      <path value="$PROJECT_DIR$/basic/vendor/codeception/stub" />
-      <path value="$PROJECT_DIR$/basic/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/basic/vendor/phpspec/php-diff" />
-      <path value="$PROJECT_DIR$/basic/vendor/ezyang/htmlpurifier" />
-      <path value="$PROJECT_DIR$/basic/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/basic/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/basic/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/basic/vendor/codeception/specify" />
-      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/jquery" />
-      <path value="$PROJECT_DIR$/basic/vendor/codeception/lib-innerbrowser" />
-      <path value="$PROJECT_DIR$/basic/vendor/codeception/lib-asserts" />
-      <path value="$PROJECT_DIR$/basic/vendor/codeception/module-filesystem" />
-      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/inputmask" />
+      <path value="$PROJECT_DIR$/basic/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/basic/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/basic/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/basic/vendor/cebe/markdown" />
-      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/yii2-pjax" />
-      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/punycode" />
-      <path value="$PROJECT_DIR$/basic/vendor/npm-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/basic/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/basic/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/basic/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/basic/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/basic/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/basic/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/basic/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-faker" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-gii" />
+      <path value="$PROJECT_DIR$/basic/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/basic/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/basic/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/basic/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/basic/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/inputmask" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/jquery" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/punycode" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/yii2-pjax" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/codeception" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/lib-asserts" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/lib-innerbrowser" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/module-asserts" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/module-filesystem" />
       <path value="$PROJECT_DIR$/basic/vendor/codeception/module-yii2" />
       <path value="$PROJECT_DIR$/basic/vendor/codeception/phpunit-wrapper" />
-      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-gii" />
-      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2" />
-      <path value="$PROJECT_DIR$/basic/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-composer" />
-      <path value="$PROJECT_DIR$/basic/vendor/psr/http-message" />
-      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-debug" />
-      <path value="$PROJECT_DIR$/basic/vendor/guzzlehttp/psr7" />
-      <path value="$PROJECT_DIR$/basic/vendor/psr/event-dispatcher" />
-      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-faker" />
-      <path value="$PROJECT_DIR$/basic/vendor/behat/gherkin" />
-      <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/specify" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/verify" />
       <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-bootstrap4" />
-      <path value="$PROJECT_DIR$/basic/vendor/composer" />
-      <path value="$PROJECT_DIR$/basic/vendor/almasaeed2010/adminlte" />
       <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/basic/vendor/composer" />
+      <path value="$PROJECT_DIR$/basic/vendor/npm-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-bootstrap4" />
+      <path value="$PROJECT_DIR$/basic/vendor/almasaeed2010/adminlte" />
       <path value="$PROJECT_DIR$/basic/vendor/bower-asset/slick-carousel" />
       <path value="$PROJECT_DIR$/basic/vendor/evgeniyrru/yii2-slick" />
     </include_path>
@@ -401,12 +380,6 @@
               <item name="kulüp-yönetim-sistemi" type="b2602c69:ProjectViewProjectNode" />
               <item name="kulüp-yönetim-sistemi" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kulüp-yönetim-sistemi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kulüp-yönetim-sistemi" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -419,27 +392,7 @@
               <item name="kulüp-yönetim-sistemi" type="b2602c69:ProjectViewProjectNode" />
               <item name="kulüp-yönetim-sistemi" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kulüp-yönetim-sistemi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kulüp-yönetim-sistemi" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kulüp-yönetim-sistemi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kulüp-yönetim-sistemi" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kulüp-yönetim-sistemi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kulüp-yönetim-sistemi" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="kulup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kulüp-yönetim-sistemi" type="b2602c69:ProjectViewProjectNode" />
@@ -460,20 +413,6 @@
               <item name="kulüp-yönetim-sistemi" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kulüp-yönetim-sistemi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kulüp-yönetim-sistemi" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kulüp-yönetim-sistemi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kulüp-yönetim-sistemi" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -541,6 +480,7 @@
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/basic/web/index.php" />
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.index.php" />
         <item itemvalue="PHP Script.index.php" />
         <item itemvalue="PHP Script.index.php" />
       </list>
@@ -611,14 +551,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89797000" />
+    <option name="totallyTimeSpent" value="89852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50201344" side_tool="true" weight="0.22507122" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50201344" side_tool="true" visible="true" weight="0.22507122" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4986577" weight="0.6210826" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -644,6 +584,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.1442953" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013423" side_tool="true" weight="0.22507122" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -723,13 +664,6 @@
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/base/Application.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -739,13 +673,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/web/vendor/jquery/jquery.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/dashboard/about.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -855,23 +782,9 @@
     <entry file="file://$PROJECT_DIR$/basic/web/img/undraw_posting_photo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/site/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://6f495cdd-edd6-45c6-af4a-0104683bf26e/schema/kulupsistemi/table/kulupler" />
     <entry file="file://$PROJECT_DIR$/basic/views/site/ayarlar.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/site/error.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/kulup/istatistikler.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -902,9 +815,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/web/img/infx_logo.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/site/kayıitli-kulupler.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/kulup/profile.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -937,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/kulup/etkinlik.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -951,31 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/controllers/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/config/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -990,16 +872,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/layouts/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="309">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/site/kayıitli-kulupler.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/web/index-test.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/site/error.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1037">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
