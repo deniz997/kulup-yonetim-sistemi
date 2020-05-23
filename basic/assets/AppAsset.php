@@ -20,12 +20,25 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
+        'https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i',
+//        'css/site.css',
+//        'css/sb-admin-2.min.css'
     ];
     public $js = [
+        'vendor/bootstrap/js/bootstrap.bundle.min.js',
+        'vendor/jquery-easing/jquery.easing.min.js',
+        'js/sb-admin-2.min.js',
+        'vendor/chart.js/Chart.min.js',
+        'js/demo/chart-area-demo.js',
+        'js/demo/chart-pie-demo.js',
+        'vendor/datatables/jquery.dataTables.min.js',
+        'vendor/datatables/dataTables.bootstrap4.min.js',
+        'js/demo/datatables-demo.js',
+        'js/demo/chart-bar-demo.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap4\BootstrapAsset',
+        FontAwesomeAsset::class
     ];
 }
