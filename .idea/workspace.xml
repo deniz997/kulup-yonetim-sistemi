@@ -26,12 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="Tekli etkinlik gösterimi (card-img-top)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="Tekli etkinlik gösterimi (card-img-top)" />
     <ignored path="$PROJECT_DIR$/basic/vendor/behat/gherkin/" />
     <ignored path="$PROJECT_DIR$/basic/vendor/bower-asset/inputmask/" />
     <ignored path="$PROJECT_DIR$/basic/vendor/bower-asset/jquery/" />
@@ -202,8 +197,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basic/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="156">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -562,7 +557,7 @@
       <workItem from="1589989800067" duration="5446000" />
       <workItem from="1590094344873" duration="9086000" />
       <workItem from="1590137627456" duration="4368000" />
-      <workItem from="1590239310344" duration="5109000" />
+      <workItem from="1590239310344" duration="5356000" />
     </task>
     <task id="LOCAL-00001" summary="Db bilgileri eklendi">
       <created>1589681229942</created>
@@ -592,11 +587,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590103764135</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tekli etkinlik gösterimi (card-img-top)">
+      <created>1590250042808</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590250042808</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88254000" />
+    <option name="totallyTimeSpent" value="88501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -990,8 +992,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="156">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
