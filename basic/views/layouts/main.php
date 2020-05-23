@@ -37,7 +37,7 @@ AppAsset::register($this);
 
     try {
         echo Nav::widget([
-            'options' => ['class' => 'navbar-nav ml-auto align-content-right'],
+            'options' => ['class' => 'navbar-nav ml-auto align-content-right text-center'],
             'items' => [
                 ['label' => 'Anasayfa', 'url' => ['/site/index']],
                 ['label' => 'Kulüpler', 'url' => ['/kulupler']],
@@ -45,6 +45,7 @@ AppAsset::register($this);
                 Yii::$app->user->isGuest ? (
                 ['label' => 'Giriş yap', 'url' => ['/site/login']]
                 ) : (
+
                 ['label' => ucfirst(Yii::$app->user->identity->username),
                     'items' => [['label' => 'Kulüplerim', 'url' => '/kayitli-kulupler'],
                         ['label' => 'Ayarlar', 'url' => '/ayarlar'],
@@ -53,9 +54,7 @@ AppAsset::register($this);
                             'linkOptions' => [
                                 'data-method' => 'post'
                             ]]
-                    ]
-
-
+                    ],
                 ]
                 )
             ],

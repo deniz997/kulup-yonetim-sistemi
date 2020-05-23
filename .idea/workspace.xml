@@ -26,18 +26,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="Kulüp profili için dashboard yapıldı ana sayfaları link bağlamak için oluşturuldu. KulupController oluşturuldu. GridView için kulüp kart gösterimi yapıldı.">
-      <change afterPath="$PROJECT_DIR$/basic/views/kulup/etkinlik.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/views/site/ayarlar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/views/site/kayıitli-kulupler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/web/img/conference.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/web/img/vodafone.png" afterDir="false" />
+    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="Tekli etkinlik gösterimi (card-img-top)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/views/kulup/etkinlikler.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/kulup/etkinlikler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/views/kulup/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/kulup/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/views/layouts/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/layouts/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/SiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/basic/web/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/index.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/basic/vendor/behat/gherkin/" />
     <ignored path="$PROJECT_DIR$/basic/vendor/bower-asset/inputmask/" />
@@ -159,20 +152,58 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+            <state relative-caret-position="170">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+              <folding>
+                <element signature="e#2682#2689#0#HTML" expanded="true" />
+                <element signature="e#3453#3460#0#HTML" expanded="true" />
+                <element signature="e#4241#4248#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="etkinlikler.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="etkinlikler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/views/kulup/etkinlikler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/views/layouts/basic.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/views/layouts/dashboard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2346">
+              <caret line="139" column="27" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/views/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="785">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -180,25 +211,10 @@
       <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/views/kulup/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="323">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tau_gece.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/web/img/tau_gece.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="vodafone.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/web/img/vodafone.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="infx_logo.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/web/img/infx_logo.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="kayıitli-kulupler.php" pinned="false" current-in-tab="false">
@@ -218,17 +234,8 @@
       <file leaf-file-name="kulupler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/views/site/kulupler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="46" selection-start-line="17" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="etkinlik.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/views/kulup/etkinlik.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="289">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -255,19 +262,19 @@
         <option value="$PROJECT_DIR$/basic/views/layouts/basic.php" />
         <option value="$PROJECT_DIR$/basic/assets/AppAsset.php" />
         <option value="$PROJECT_DIR$/basic/config/web.php" />
-        <option value="$PROJECT_DIR$/basic/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/basic/views/site/login.php" />
         <option value="$PROJECT_DIR$/basic/views/kulup/kulup.php" />
         <option value="$PROJECT_DIR$/basic/controllers/KulupController.php" />
-        <option value="$PROJECT_DIR$/basic/views/site/kulupler.php" />
-        <option value="$PROJECT_DIR$/basic/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/basic/views/kulup/profile.php" />
         <option value="$PROJECT_DIR$/basic/views/kulup/etkinlik.php" />
         <option value="$PROJECT_DIR$/basic/web/css/sb-admin-2.min.css" />
-        <option value="$PROJECT_DIR$/basic/views/site/index.php" />
         <option value="$PROJECT_DIR$/basic/views/layouts/dashboard.php" />
         <option value="$PROJECT_DIR$/basic/web/css/site.css" />
+        <option value="$PROJECT_DIR$/basic/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/basic/views/site/index.php" />
+        <option value="$PROJECT_DIR$/basic/views/site/kulupler.php" />
         <option value="$PROJECT_DIR$/basic/views/kulup/etkinlikler.php" />
+        <option value="$PROJECT_DIR$/basic/views/layouts/main.php" />
       </list>
     </option>
   </component>
@@ -553,7 +560,9 @@
       <workItem from="1589738611013" duration="5003000" />
       <workItem from="1589806820149" duration="22712000" />
       <workItem from="1589989800067" duration="5446000" />
-      <workItem from="1590094344873" duration="9023000" />
+      <workItem from="1590094344873" duration="9086000" />
+      <workItem from="1590137627456" duration="4368000" />
+      <workItem from="1590239310344" duration="5109000" />
     </task>
     <task id="LOCAL-00001" summary="Db bilgileri eklendi">
       <created>1589681229942</created>
@@ -576,24 +585,30 @@
       <option name="project" value="LOCAL" />
       <updated>1589840695615</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tekli etkinlik gösterimi (card-img-top)">
+      <created>1590103764135</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590103764135</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78714000" />
+    <option name="totallyTimeSpent" value="88254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013423" side_tool="true" weight="0.22507122" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932885" weight="0.6225071" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" visible="true" weight="0.22507122" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4986577" visible="true" weight="0.22507122" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.1442953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -651,7 +666,8 @@
     <MESSAGE value="Db bilgileri eklendi" />
     <MESSAGE value="Modeller eklendi." />
     <MESSAGE value="Kulüp profili için dashboard yapıldı ana sayfaları link bağlamak için oluşturuldu. KulupController oluşturuldu. GridView için kulüp kart gösterimi yapıldı." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kulüp profili için dashboard yapıldı ana sayfaları link bağlamak için oluşturuldu. KulupController oluşturuldu. GridView için kulüp kart gösterimi yapıldı." />
+    <MESSAGE value="Tekli etkinlik gösterimi (card-img-top)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tekli etkinlik gösterimi (card-img-top)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -810,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/layouts/basic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/assets/AppAsset.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -855,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://6f495cdd-edd6-45c6-af4a-0104683bf26e/schema/kulupsistemi/table/kulupler">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -871,13 +873,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/site/ayarlar.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/site/error.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -896,22 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2941">
           <caret line="9" column="164468" selection-start-line="9" selection-start-column="164468" selection-end-line="9" selection-end-column="164468" />
-          <folding>
-            <element signature="e#22861#23095#2" expanded="true" />
-            <element signature="e#23900#24053#1" expanded="true" />
-            <element signature="e#24093#24327#1" expanded="true" />
-            <element signature="e#27336#27612#2" expanded="true" />
-            <element signature="e#28444#28597#1" expanded="true" />
-            <element signature="e#28637#28913#1" expanded="true" />
-            <element signature="e#57447#57634#2" expanded="true" />
-            <element signature="e#57863#57999#2" expanded="true" />
-            <element signature="e#58404#58537#2" expanded="true" />
-            <element signature="e#59681#59834#1" expanded="true" />
-            <element signature="e#70706#70936#2" expanded="true" />
-            <element signature="e#71803#72039#2" expanded="true" />
-            <element signature="e#100080#100257#2" expanded="true" />
-            <element signature="e#100303#100480#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,13 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/layouts/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -939,23 +911,13 @@
     <entry file="file://$PROJECT_DIR$/basic/web/img/tau_gece.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/web/img/vodafone.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/web/img/infx_logo.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/kulup/etkinlik.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="7" selection-end-column="6" />
+          <caret selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -964,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/kulup/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="323">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -976,20 +938,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/basic/web/img/vodafone.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/layouts/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="139" column="27" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/layouts/basic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/site/kulupler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="46" selection-start-line="17" selection-end-line="18" />
+        <state relative-caret-position="289">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#2682#2689#0#HTML" expanded="true" />
+            <element signature="e#3453#3460#0#HTML" expanded="true" />
+            <element signature="e#4241#4248#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/kulup/etkinlikler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
