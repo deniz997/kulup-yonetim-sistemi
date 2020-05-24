@@ -17,6 +17,7 @@ class KulupController extends Controller
 
     public function actionIndex()
     {
+
         return $this->render('kulup');
     }
 
@@ -28,6 +29,12 @@ class KulupController extends Controller
     public function actionEtkinlikler()
     {
         return $this->render('etkinlikler');
+    }
+
+    public function actionEtkinlik()
+    {
+        $this->layout = 'main';
+        return $this->render('etkinlik');
     }
 
     public function actionIstatistikler()

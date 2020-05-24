@@ -5,10 +5,13 @@
 
 /* @var $model app\models\LoginForm */
 
+/* @var $kulup */
+
 use yii\helpers\Html;
 
 $this->title = 'Kulüpler';
 $this->params['breadcrumbs'][] = $this->title;
+
 ?>
 
 <h1>Kulüpler listesi</h1>
@@ -17,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="card my-5 shadow-lg ">
         <?php echo Html::img('@web/kuluplogolar/1.jpg', ['class' => 'card-img-top rounded-circle img-fluid w-50 mt-n5 mx-auto']) ?>
         <div class="card-body">
-            <h5 class="card-title text-center font-weight-bold">Informatix</h5>
+            <h5 class="card-title text-center font-weight-bold"></h5>
             <small><p class="card-description text-center">Bilgisayar Mühendisliği</p>
                 <ul class="list-unstyled">
                     <li class="d-flex pb-1">

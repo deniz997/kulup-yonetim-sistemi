@@ -42,7 +42,8 @@ $this->beginContent('@app/views/layouts/main.php'); ?>
             <!-- Divider -->
             <hr class="sidebar-divider">
 
-            <!-- Heading -->
+            <?php if (!Yii::$app->user->isGuest) {
+                echo '<!-- Heading -->
             <div class="sidebar-heading">
                 Kulüp Yönetimi
             </div>
@@ -97,7 +98,8 @@ $this->beginContent('@app/views/layouts/main.php'); ?>
                     <i class="fas fa-archive"></i>
                     <span>Etkinlikleri Yönet</span>
                 </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div id="collapsePages" class="collapse" aria-labelledby="headingPages"
+                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Etkinlik İşlemleri:</h6>
                         <a class="collapse-item" href="login.html">Yeni oluştur</a>
@@ -112,22 +114,8 @@ $this->beginContent('@app/views/layouts/main.php'); ?>
                 <a class="nav-link" href="#">
                     <i class="fas fa-users"></i>
                     <span>Üyeler</span></a>
-            </li>
-
-            <!-- Nav Item - Tables -->
-            <!--            <li class="nav-item">-->
-            <!--                <a class="nav-link" href="tables.html">-->
-            <!--                    <i class="fas fa-fw fa-table"></i>-->
-            <!--                    <span>Tables</span></a>-->
-            <!--            </li>-->
-
-            <!-- Divider -->
-            <!--            <hr class="sidebar-divider d-none d-md-block">-->
-
-            <!-- Sidebar Toggler (Sidebar) -->
-            <!--            <div class="text-center d-none d-md-inline">-->
-            <!--                <button class="rounded-circle border-0" id="sidebarToggle"></button>-->
-            <!--            </div>-->
+            </li>';
+            } ?>
 
         </ul>
         <!-- End of Sidebar -->

@@ -7,21 +7,21 @@ use yii\helpers\Html;
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide bg-gradient-dark" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner" style=" width:100%; height: 500px !important;">
             <div class="carousel-item active">
-                <?php echo Html::img('@web/img/conference.jpg', ['class' => 'd-block w-100']) ?>
+                <?php echo Html::img('@web/img/vodafone.png', ['class' => 'd-block mx-auto my-auto']) ?>
             </div>
             <div class="carousel-item">
-                <?php echo Html::img('@web/img/conference.jpg', ['class' => 'd-block w-100']) ?>
+                <?php echo Html::img('@web/img/conference.jpg', ['class' => 'd-block mx-auto my-auto']) ?>
             </div>
             <div class="carousel-item">
-                <?php echo Html::img('@web/img/conference.jpg', ['class' => 'd-block w-100']) ?>
+                <?php echo Html::img('@web/img/tau_gece.jpg', ['class' => 'd-block mx-auto my-auto']) ?>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
