@@ -4,6 +4,7 @@ namespace app\controllers;
 
 use app\models\LoginForm;
 use Yii;
+use yii\data\SqlDataProvider;
 use yii\db\Exception;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
@@ -112,26 +113,27 @@ class SiteController extends Controller
     public function actionKulupler()
     {
 
-        $db = Yii::$app->db;
-//
-//        $kulupInfos = $db->createCommand("SELECT kulupler.name,
-//       kulupler.acilis ,
-//       kulupler.logo,
-//       count(kulup_uye.kulup_id) AS \"Uye Sayisi\",
-//       count(etkinlik.kulup_id) AS \"Etkinlik Sayisi\"
-//        FROM ((kulupler Left JOIN kulup_uye  ON kulupler.id = kulup_uye.kulup_id)
-//         Left JOIN etkinlik ON kulupler.id = etkinlik.kulup_id) WHERE kulup_uye.is_approved = TRUE GROUP BY kulupler.name, kulupler.acilis, kulupler.logo
-//
-//         ")->queryAll();
+        //  $db = Yii::$app->db;
+        // $kulupInfos = $db->createCommand()->queryAll();
 
 
-//        $provider = new ActiveDataProvider([
-//            'query' => $kulupInfos
-//        ]);
+        $provider = new SqlDataProvider([
+            'sql' => "SELECT kulupler.name,
+       kulupler.acilis ,
+       kulupler.logo,
+       count(kulup_uye.kulup_id) AS \"Uye Sayisi\",
+       count(etkinlik.kulup_id) AS \"Etkinlik Sayisi\"
+        FROM ((kulupler Left JOIN kulup_uye  ON kulupler.id = kulup_uye.kulup_id)
+         Left JOIN etkinlik ON kulupler.id = etkinlik.kulup_id) WHERE kulup_uye.is_approved = TRUE GROUP BY kulupler.name, kulupler.acilis, kulupler.logo
+         "
+        ]);
 
-        return $this->render('kulupler',
-            [
-//                'kulup' => $provider
-            ]);
+        echo '<pre>';
+        var_dump($provider->getModels());
+        echo '</pre>';
+
+        return $this->render('kulupler', [
+            'provider' => $provider
+        ]);
     }
 }
