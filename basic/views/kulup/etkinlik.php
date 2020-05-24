@@ -21,11 +21,11 @@ $img_exist = false;
 <div class="d-block ml-4">
     <div class="d-flex bg-danger rounded-left ml-5 mt-n5 shadow-lg" style="height: 100px"></div>
 </div>
-<div class="container mt-3 mb-5">
+<div class="container my-3">
     <div class="row">
-        <div class="card col-md-8">
+        <div class="card col-lg-8 col-md-12 mb-3 mx-2">
             <div class="card-body row">
-                <div class="col-7">
+                <div class="col-lg-7 col-md-12">
                     <h2 class="card-subtitle text-secondary mt-2">Etkinlik içeriği</h2>
                     <hr>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dolor dolor,
@@ -53,7 +53,7 @@ $img_exist = false;
                         interdum massa
                         nisi quis nulla.</p>
                 </div>
-                <div class="col-5">
+                <div class="col-lg-5 col-md-12 mt-3">
                     <h2 class="card-subtitle text-secondary mt-2">Katılımcılar</h2>
                     <hr>
                     <ul class="list-unstyled">
@@ -64,8 +64,8 @@ $img_exist = false;
                 </div>
             </div>
         </div>
-        <div class="col-md-3 ml-md-auto mt-md-n5">
-            <div class="card mb-2 mt-md-n5 order-0 bg-gray-100 mx-auto shadow-lg">
+        <div class="col-lg-3 col-md-12 ml-lg-auto mt-lg-n5">
+            <div class="card mb-2 mt-lg-n5 bg-gray-100 mx-auto shadow-lg">
                 <div class="card-body row justify-content-center">
                     <h1 class="text-dark font-weight-bold my-auto">22</h1>
                     <div class=" ml-1 my-auto">
