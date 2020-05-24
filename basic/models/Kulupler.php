@@ -18,6 +18,7 @@ use yii\db\ActiveRecord;
  * @property string|null $logo
  * @property string $acilis
  *
+ *
  * @property GenelKurulForm[] $genelKurulForms
  * @property KulupUye[] $kulupUyes
  */
@@ -79,7 +80,12 @@ class Kulupler extends ActiveRecord
      */
     public function getKulupUyes()
     {
-        return $this->hasMany(KulupUye::className(), ['kulup_id' => 'id']);
+        return $this->hasMany(KulupUyeler::className(), ['kulup_id' => 'id']);
+    }
+
+    public function getEtkinlikNumbers()
+    {
+        return $this->hasMany(Etkinlik::class, ['kulup_id' => 'id']);
     }
 
     /**
