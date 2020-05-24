@@ -88,9 +88,17 @@ $img_exist = false;
             </div>
 
             <div class="card border-0 mt-3 shadow-lg">
-                <a class="card-body stretched-link rounded bg-success text-white text-decoration-none" href="">
+                <?php
+                if (false) {
+                    echo '<a class="card-body stretched-link rounded bg-success text-white text-decoration-none" href="">
                     <div class="my-auto text-center">Etkinliğe katıl</div>
-                </a>
+                </a>';
+                } else {
+                    echo '<div class="card-body rounded bg-dark text-gray-400 text-decoration-none" href="">
+                    <div class="my-auto text-center">İstek gönderildi</div>
+                </div>';
+                } ?>
+
             </div>
 
         </div>
