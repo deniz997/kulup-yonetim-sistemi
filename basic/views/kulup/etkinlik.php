@@ -1,6 +1,6 @@
 <?php use yii\helpers\Html;
 
-$img_exist = false;
+$img_exist = true;
 ?>
 
 
@@ -25,7 +25,7 @@ $img_exist = false;
     <div class="row">
         <div class="card col-lg-8 col-md-12 mb-3 mx-2">
             <div class="card-body row">
-                <div class="col-lg-7 col-md-12">
+                <div class="col-lg-7 col-md-12 mb-3">
                     <h2 class="card-subtitle text-secondary mt-2">Etkinlik içeriği</h2>
                     <hr>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dolor dolor,
@@ -53,7 +53,7 @@ $img_exist = false;
                         interdum massa
                         nisi quis nulla.</p>
                 </div>
-                <div class="col-lg-5 col-md-12 mt-3">
+                <div class="col-lg-5 col-md-12 ">
                     <h2 class="card-subtitle text-secondary mt-2">Katılımcılar</h2>
                     <hr>
                     <ul class="list-unstyled">
@@ -67,14 +67,14 @@ $img_exist = false;
         <div class="col-lg-3 col-md-12 ml-lg-auto mt-lg-n5">
             <div class="card mb-2 mt-lg-n5 bg-gray-100 mx-auto shadow-lg">
                 <div class="card-body row justify-content-center">
-                    <h1 class="text-dark font-weight-bold my-auto">22</h1>
+                    <h1 class="text-dark my-auto">22</h1>
                     <div class=" ml-1 my-auto">
                         <p class=" text-danger font-weight-bold my-auto" style="line-height: 90%;">Haz</p>
                         <p class="text-dark font-weight-bold my-auto" style="line-height: 90%;">2020</p>
                     </div>
                     <div class="container">
                         <hr class="my-2 mx-4">
-                        <h2 class="text-dark font-weight-bold my-auto text-center">16:00</h2>
+                        <h2 class="text-dark my-auto text-center">16:00</h2>
                     </div>
                 </div>
             </div>

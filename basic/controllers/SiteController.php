@@ -4,7 +4,6 @@ namespace app\controllers;
 
 use app\models\LoginForm;
 use Yii;
-use yii\db\Exception;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
@@ -106,7 +105,6 @@ class SiteController extends Controller
      * Displays Kulüpler page.
      *
      * @return string
-     * @throws Exception
      */
 
     public function actionKulupler()
@@ -134,5 +132,16 @@ class SiteController extends Controller
         return $this->render('kulupler', [
 //            'provider' => $provider
         ]);
+    }
+
+    /**
+     * Displays Bildirimler page.
+     *
+     * @return string
+     */
+
+    public function actionBildirimler()
+    {
+        return $this->render('bildirimler');
     }
 }

@@ -9,12 +9,11 @@ $this->beginContent('@app/views/layouts/main.php'); ?>
     <div class="d-flex">
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
-
             <!-- Sidebar - Brand -->
             <li class="nav-item">
-                <a class="sidebar-brand container" href="index.html">
+                <a class="sidebar-brand container" href="/kulup/profile">
                     <div>
-                        <?php echo Html::img('@web/img/infx_logo.jpg', ['class' => 'rounded-circle w-50 img-fluid']) ?>
+                        <?php echo Html::img('@web/img/infx_logo.jpg', ['class' => 'rounded-circle shadow-lg w-50 img-fluid']) ?>
                     </div>
                     <div class="sidebar-brand-text d-sm-none d-md-block mt-3">Informatix <br> Kulübü</div>
                 </a>
@@ -116,7 +115,6 @@ $this->beginContent('@app/views/layouts/main.php'); ?>
                     <span>Üyeler</span></a>
             </li>';
             } ?>
-
         </ul>
         <!-- End of Sidebar -->
 

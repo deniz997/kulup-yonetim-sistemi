@@ -48,7 +48,7 @@ AppAsset::register($this);
 
                 ['label' => ucfirst(Yii::$app->user->identity->username),
                     'items' => [['label' => 'Kulüplerim', 'url' => '/kayitli-kulupler'],
-                        ['label' => 'Ayarlar', 'url' => '/ayarlar'],
+                        ['label' => Html::tag('div', '<div class="float-left"><p class="float-left my-auto">Bildirimler</p></div><div class="rounded ml-auto bg-danger text-white"><small><h9 class="my-auto px-1">10</h9></small></div>', ['class' => 'd-flex my-auto']), 'url' => '/bildirimler',],
                         ['label' => 'Çıkış yap',
                             'url' => ['site/logout'],
                             'linkOptions' => [
@@ -58,6 +58,7 @@ AppAsset::register($this);
                 ]
                 )
             ],
+            'encodeLabels' => false
         ]);
     } catch (Exception $e) {
     }
