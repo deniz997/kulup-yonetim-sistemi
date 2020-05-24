@@ -31,7 +31,7 @@ AppAsset::register($this);
         'brandLabel' => 'Kulüp Yönetim Sistemi',  /*Yii::$app->name,*/
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-fixed-top navbar-expand-lg navbar-dark bg-dark',
+            'class' => 'navbar-fixed-top navbar-expand-lg navbar-dark bg-dark shadow-lg',
         ],
     ]);
 

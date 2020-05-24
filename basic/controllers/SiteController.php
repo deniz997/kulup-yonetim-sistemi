@@ -4,6 +4,8 @@ namespace app\controllers;
 
 use app\models\LoginForm;
 use Yii;
+use yii\data\SqlDataProvider;
+use yii\db\Exception;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
@@ -105,10 +107,33 @@ class SiteController extends Controller
      * Displays Kulüpler page.
      *
      * @return string
+     * @throws Exception
      */
 
     public function actionKulupler()
     {
-        return $this->render('kulupler');
+
+        //  $db = Yii::$app->db;
+        // $kulupInfos = $db->createCommand()->queryAll();
+
+
+        $provider = new SqlDataProvider([
+            'sql' => "SELECT kulupler.name,
+       kulupler.acilis ,
+       kulupler.logo,
+       count(kulup_uye.kulup_id) AS \"Uye Sayisi\",
+       count(etkinlik.kulup_id) AS \"Etkinlik Sayisi\"
+        FROM ((kulupler Left JOIN kulup_uye  ON kulupler.id = kulup_uye.kulup_id)
+         Left JOIN etkinlik ON kulupler.id = etkinlik.kulup_id) WHERE kulup_uye.is_approved = TRUE GROUP BY kulupler.name, kulupler.acilis, kulupler.logo
+         "
+        ]);
+
+        echo '<pre>';
+        var_dump($provider->getModels());
+        echo '</pre>';
+
+        return $this->render('kulupler', [
+            'provider' => $provider
+        ]);
     }
 }

@@ -37,8 +37,6 @@ class DashboardController extends Controller
     }
 
 
-    public $layout = 'dashboard';
-
     /**
      * Displays contact page.
      *
