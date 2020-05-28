@@ -7,11 +7,9 @@ $img_exist = true;
 
 <div class="card-deck mb-5">
     <div class="card shadow-lg">
-        <?php
-        if ($img_exist) {
+        <?php if ($img_exist) {
             echo Html::img('@web/img/conference.jpg', ['class' => 'card-img-top img-fluid', 'style' => 'object-fit:cover; height:150px; width:100%']);
-        } ?>
-        <div class="card-img-overlay d-flex justify-content-end py-3 px-3">
+            echo '<div class="card-img-overlay d-flex justify-content-end py-3 px-3">
             <small>
                 <div class="rounded px-2 py-1 mx-1" style=" background-color: #d79228;"><p class="my-0 text-white">
                         Konferans</p></div>
@@ -20,7 +18,24 @@ $img_exist = true;
                 <div class="rounded bg-danger px-2 py-1 mx-1"><p class="my-0 text-white">
                         Teknik Gezi</p></div>
             </small>
+
+        </div>';
+        } else {
+            echo '<div class="card-header bg-gray-200 py-3 px-3">
+            <div class="row justify-content-end">
+            <small>
+                <div class="rounded px-2 py-1 mx-1" style=" background-color: #d79228;"><p class="my-0 text-white">
+                        Konferans</p></div>
+            </small>
+            <small>
+                <div class="rounded bg-danger px-2 py-1 mx-1"><p class="my-0 text-white">
+                        Teknik Gezi</p></div>
+            </small>
+
         </div>
+        </div>';
+        } ?>
+
         <div class="card-body pb-0 px-0">
             <div class="row col-12">
                 <div class="col-3 my-auto mr-3 mx-auto">

@@ -19,7 +19,7 @@ $img_exist = true;
     </div>
 </div>
 <div class="d-block ml-4">
-    <div class="d-flex bg-danger rounded-left ml-5 mt-n5 shadow-lg" style="height: 100px"></div>
+    <div class="d-flex bg-gradient-secondary rounded-left ml-5 mt-n5 shadow-lg" style="height: 100px"></div>
 </div>
 <div class="container my-3">
     <div class="row">

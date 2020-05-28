@@ -13,7 +13,7 @@ $img_exist = true;
 
 <div class="row mb-n5">
     <div class="col-12 ">
-        <div class="bg-danger rounded" style="height: 60px;"></div>
+        <div class="bg-gradient-dark rounded" style="height: 60px;"></div>
     </div>
 </div>
 <div class="row mx-2 mb-3">
@@ -81,7 +81,7 @@ $img_exist = true;
                     <div class="my-auto text-center">Üyelik isteği gönder</div>
                 </a>';
                 } else {
-                    echo '<div class="card-body rounded bg-dark text-gray-400 text-decoration-none" href="">
+                    echo '<div class="card-body rounded bg-secondary text-gray-400 text-decoration-none" href="">
                     <div class="my-auto text-center">İstek gönderildi</div>
                 </div>';
                 } ?>
