@@ -125,12 +125,14 @@ class SiteController extends Controller
 //         "
 //        ]);
 
+
         $provider = new ActiveDataProvider([
             'query' => KulupInfos::find()
         ]);
 
         return $this->render('kulupler', [
-            'provider' => $provider
+            'provider' => $provider,
+            'kModel' => new KulupInfos()
         ]);
     }
 }
