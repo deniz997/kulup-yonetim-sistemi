@@ -17,6 +17,7 @@ use yii\db\ActiveRecord;
  * @property string|null $uyelik_tarihi_bitis
  * @property string|null $ayrilma_sebebi
  *
+ *
  * @property Kulupler $kulup
  * @property Ogrenci $ogrenci
  */

@@ -2,8 +2,11 @@
 
 namespace app\controllers;
 
+use app\models\KulupInfos;
 use app\models\LoginForm;
 use Yii;
+use yii\data\ActiveDataProvider;
+use yii\db\Exception;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
@@ -105,14 +108,11 @@ class SiteController extends Controller
      * Displays Kulüpler page.
      *
      * @return string
+     * @throws Exception
      */
 
     public function actionKulupler()
     {
-
-        //  $db = Yii::$app->db;
-        // $kulupInfos = $db->createCommand()->queryAll();
-
 
 //        $provider = new SqlDataProvider([
 //            'sql' => "SELECT kulupler.name,
@@ -125,23 +125,14 @@ class SiteController extends Controller
 //         "
 //        ]);
 
-//        echo '<pre>';
-//        var_dump($provider->getModels());
-//        echo '</pre>';
+
+        $provider = new ActiveDataProvider([
+            'query' => KulupInfos::find()
+        ]);
 
         return $this->render('kulupler', [
-//            'provider' => $provider
+            'provider' => $provider,
+            'kModel' => new KulupInfos()
         ]);
-    }
-
-    /**
-     * Displays Bildirimler page.
-     *
-     * @return string
-     */
-
-    public function actionBildirimler()
-    {
-        return $this->render('bildirimler');
     }
 }
