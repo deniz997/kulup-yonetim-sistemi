@@ -27,7 +27,7 @@ class KulupController extends Controller
     {
 
         $etkinlikProvider = new ActiveDataProvider([
-            'query' => Etkinlik::find()->where('id=:id', [
+            'query' => Etkinlik::find()->where('kulup_id=:id', [
                 ':id' => $id
             ])
         ]);

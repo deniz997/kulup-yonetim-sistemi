@@ -1,5 +1,6 @@
 <?php use yii\helpers\Html;
 
+/* @var $model app\models\Etkinlik */
 $img_exist = true;
 ?>
 
@@ -14,7 +15,7 @@ $img_exist = true;
         <div class="card-img-overlay d-flex flex-column py-0 justify-content-end">
             <h1 class="card-title font-weight-bold text-white <?php if (!$img_exist) {
                 echo 'my-auto';
-            } ?>">Vodafone Gezisi</h1>
+            } ?>"><?php echo $model->adi ?></h1>
         </div>
     </div>
 </div>

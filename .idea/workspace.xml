@@ -27,12 +27,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/views/site/_kulup_item.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/kulup/_etkinlik_item.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/views/site/kulupler.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/kulupler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/controllers/KulupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/KulupController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/kulup/etkinlik.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/kulup/_etkinlik_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/kulup/etkinlikler.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/kulup/etkinlikler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/kulup/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/kulup/profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +203,7 @@
       <workItem from="1590680894905" duration="73000" />
       <workItem from="1590680983079" duration="39000" />
       <workItem from="1590688791097" duration="3756000" />
-      <workItem from="1590782542835" duration="5053000" />
+      <workItem from="1590782542835" duration="7015000" />
     </task>
     <task id="LOCAL-00001" summary="Db bilgileri eklendi">
       <created>1589681229942</created>
@@ -268,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590691152953</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Database connection for clubs list page established">
+      <created>1590789037599</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590789037600</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +315,8 @@
     <MESSAGE value="Etkinlik butonu disable kısmı yapıldı" />
     <MESSAGE value="Etkinlik sayfaso responsive yapıldı" />
     <MESSAGE value="Kulup ana sayfa, etkinlik sayfası, gridView için item olarak gösterimleri ve bildirimler sayfası bitti. Dropdown menu item a bildirimler ve sayaç göstergesi eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kulup ana sayfa, etkinlik sayfası, gridView için item olarak gösterimleri ve bildirimler sayfası bitti. Dropdown menu item a bildirimler ve sayaç göstergesi eklendi" />
+    <MESSAGE value="Database connection for clubs list page established" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database connection for clubs list page established" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -319,12 +327,12 @@
     </state>
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590691376630" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1590691152030">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1590789036667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1529" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590688874568" />
     <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590691152030" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590789036667" />
     <state x="532" y="323" key="ComposerInitDialogKey" timestamp="1590688874568" />
     <state x="532" y="323" key="ComposerInitDialogKey/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
     <state x="177" y="83" key="MergeDialog" timestamp="1590688874568" />
@@ -334,16 +342,16 @@
     </state>
     <state x="370" y="114" width="855" height="632" key="MultipleFileMergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
     <state x="370" y="114" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1590691201766" />
-    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1590784612577">
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1590790720604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1590784612577" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1590691159122">
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1590790720604" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1590789040593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590688874568" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590691159122" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590789040593" />
     <state x="349" y="67" key="com.intellij.database.dbimport.ImportDialog" timestamp="1590787498156">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -354,10 +362,10 @@
     <state x="499" y="217" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1536.824@0.0.1536.824" timestamp="1590787559300" />
     <state x="-1343" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590688874568" />
     <state x="-1343" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590688874568" />
-    <state x="464" y="201" key="git4idea.merge.GitPullDialog" timestamp="1590691180963">
+    <state x="464" y="201" key="git4idea.merge.GitPullDialog" timestamp="1590790164448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="464" y="201" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1590691180963" />
+    <state x="464" y="201" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1590790164448" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1590788229235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
