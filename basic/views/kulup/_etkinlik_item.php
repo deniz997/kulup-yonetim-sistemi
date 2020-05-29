@@ -43,34 +43,41 @@ $img_exist = true;
                 <p class="card-text font-weight-bold mb-2"><?php echo $model->adi ?></p>
                 <small>
                     <ul class="list-unstyled">
-                        <li class="row"><i class="fas fa-user-friends mt-1 mr-2"></i>
-                            <ul class="list-unstyled">
-                                <?php foreach ($model->getKatilimciEtkinliks()->orderBy('id')->all() as $katilimci) {
-                                    echo '<li>' . $katilimci->katilimci_isim . '</li>';
-                                } ?>
-                            </ul>
-                        </li>
+                        <?php if ($model->getKatilimciEtkinliks()->one() != null) {
+                            echo '<li class="row"><i class="fas fa-user-friends mt-1 mr-2"></i>
+                            <ul class="list-unstyled">';
+                            foreach ($model->getKatilimciEtkinliks()->orderBy('id')->all() as $katilimci) {
+                                echo '<li>' . $katilimci->katilimci_isim . '</li>';
+                            }
+                            echo '</ul>
+                        </li>';
+                        } ?>
+
                         <li class="row"><i class="fas fa-map-marked-alt mr-2"></i>
                             <p class="p-0 mb-0 col-10">YDYO Konferans Salonu</p></li>
                     </ul>
                 </small>
             </div>
         </div>
-        <hr class="my-0">
-        <div class="row ml-3 my-2">
-            <div class="col-2 my-auto">
-                <small class="my-auto">
-                    <?php echo Html::img('@web/img/infx_logo.jpg', ['class' => 'rounded-circle my-auto img-fluid']) ?>
-            </div>
-
-            <p class="text-left p-0 my-auto"><?php echo $model->getKulupName() ?></p>
-        </div>
-        </small>
-
     </div>
-    <a class="card-footer bg-secondary stretched-link text-decoration-none" href="/kulup/etkinlik">
-        <p class="card-text text-white d-flex">
-            <small>Etkinliği gör</small>
-            <i class="fas fa-arrow-right my-auto ml-auto"></i></p>
-    </a>
+    <div class="card-footer p-0 bg-white">
+        <small class="my-auto">
+            <div class="row ml-3 my-2">
+               
+                <div class="col-2 my-auto">
+
+                    <?php echo Html::img('@web/' . $model->getKulup()->logo . '.jpg', ['class' => 'rounded-circle my-auto img-fluid']) ?>
+                </div>
+
+                <p class="text-left p-0 my-auto"><?php echo $model->getKulup()->name ?></p>
+            </div>
+        </small>
+        <div class="card-footer bg-secondary">
+            <a class="stretched-link text-decoration-none" href="/kulup/etkinlik">
+                <p class="card-text text-white d-flex">
+                    <small>Etkinliği gör</small>
+                    <i class="fas fa-arrow-right my-auto ml-auto"></i></p>
+            </a>
+        </div>
+    </div>
 </div>
