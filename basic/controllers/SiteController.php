@@ -130,10 +130,6 @@ class SiteController extends Controller
             'pagination' => ['pageSize' => 20,]
         ]);
 
-//        $kulup = new Kulupler();
-//        $kulup->id = 1;
-//        echo count($kulup->getKulupUyes()->all());
-
         return $this->render('kulupler', [
             'provider' => $provider,
         ]);

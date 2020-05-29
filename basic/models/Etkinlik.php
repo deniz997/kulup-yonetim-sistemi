@@ -91,6 +91,13 @@ class Etkinlik extends ActiveRecord
         return $this->hasMany(KatilimciEtkinlik::className(), ['etkinlik_id' => 'id']);
     }
 
+    public function getKulupName()
+    {
+        return Kulupler::find()->where('id=:id', [
+            ':id' => $this->kulup_id
+        ])->one()->name;
+    }
+
     /**
      * Gets query for [[SonucRaporus]].
      *
