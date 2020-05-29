@@ -95,7 +95,7 @@ class Etkinlik extends ActiveRecord
     {
         return Kulupler::find()->where('id=:id', [
             ':id' => $this->kulup_id
-        ])->one()->name;
+        ])->one();
     }
 
     /**
