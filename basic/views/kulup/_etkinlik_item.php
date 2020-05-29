@@ -63,7 +63,7 @@ $img_exist = true;
                     <?php echo Html::img('@web/img/infx_logo.jpg', ['class' => 'rounded-circle my-auto img-fluid']) ?>
             </div>
 
-            <p class="text-left p-0 my-auto">Informatix Kulübü</p>
+            <p class="text-left p-0 my-auto"><?php echo $model->getKulupName() ?></p>
         </div>
         </small>
 
