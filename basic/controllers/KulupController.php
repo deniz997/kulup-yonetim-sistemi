@@ -9,6 +9,8 @@
 namespace app\controllers;
 
 
+use app\models\Etkinlik;
+use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 
 class KulupController extends Controller
@@ -21,9 +23,17 @@ class KulupController extends Controller
         return $this->render('kulup');
     }
 
-    public function actionProfile()
+    public function actionProfile($id)
     {
-        return $this->render('profile');
+
+        $etkinlikProvider = new ActiveDataProvider([
+            'query' => Etkinlik::find()->where('id=:id', [
+                ':id' => $id
+            ])
+        ]);
+        return $this->render('profile', [
+            'etkinlikProvider' => $etkinlikProvider
+        ]);
     }
 
     public function actionEtkinlikler()
@@ -34,6 +44,8 @@ class KulupController extends Controller
     public function actionEtkinlik()
     {
         $this->layout = 'main';
+
+
         return $this->render('etkinlik');
     }
 

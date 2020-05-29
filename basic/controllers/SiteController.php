@@ -126,7 +126,7 @@ class SiteController extends Controller
 //        ]);
 
         $provider = new ActiveDataProvider([
-            'query' => KulupInfos::find(),
+            'query' => KulupInfos::find()->where($condition),
             'pagination' => ['pageSize' => 20,]
         ]);
 
