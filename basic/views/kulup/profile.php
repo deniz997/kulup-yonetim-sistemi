@@ -122,7 +122,7 @@ $img_exist = true;
                     'class' => LinkPager::class,
                 ],
                 'itemView' => '_etkinlik_item',
-                'layout' => '<div class="row justify-content-center">{items}</div><div class="d-flex justify-content-center">{pager}</div>',
+                'layout' => '<div class="row justify-content-start">{items}</div><div class="d-flex justify-content-center">{pager}</div>',
                 'itemOptions' => [
                     'tag' => false
                 ],

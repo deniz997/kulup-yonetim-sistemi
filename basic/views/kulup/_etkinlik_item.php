@@ -3,7 +3,7 @@
 /* @var $model app\models\Etkinlik */
 $img_exist = true;
 ?>
-<div class="card shadow-lg col-xs-12 col-md-3 p-0">
+<div class="card shadow-lg col-lg-3 col-xs-12 mx-3 p-0">
     <?php if ($img_exist) {
         echo Html::img('@web/img/conference.jpg', ['class' => 'card-img-top img-fluid', 'style' => 'object-fit:cover; height:150px; width:100%']);
         echo '<div class="card-img-overlay d-flex justify-content-end py-3 px-3">
@@ -35,7 +35,7 @@ $img_exist = true;
 
     <div class="card-body pb-0 px-0">
         <div class="row col-12">
-            <div class="col-3 my-auto mr-3 mx-auto">
+            <div class="col-4 my-auto mr-3 mx-auto">
                 <h5 class="text-danger font-weight-bold text-center mb-0">Haz</h5>
                 <h5 class="font-weight-bold text-center">22</h5>
             </div>
@@ -45,7 +45,9 @@ $img_exist = true;
                     <ul class="list-unstyled">
                         <li class="row"><i class="fas fa-user-friends mt-1 mr-2"></i>
                             <ul class="list-unstyled">
-                                <?php echo $model->getKatilimciEtkinliks()->one() ?>
+                                <?php foreach ($model->getKatilimciEtkinliks()->orderBy('id')->all() as $katilimci) {
+                                    echo '<li>' . $katilimci->katilimci_isim . '</li>';
+                                } ?>
                             </ul>
                         </li>
                         <li class="row"><i class="fas fa-map-marked-alt mr-2"></i>
