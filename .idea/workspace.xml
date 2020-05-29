@@ -21,18 +21,16 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/hakan" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/deniz" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/views/site/_kulup_item.php" afterDir="false" />
+    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="EtkinlikKatilimci model">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_21_2020_12_42_AM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/views/site/kulupler.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/kulupler.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +47,40 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Nusret" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1590251622" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Nusret" />
+                    <option name="lastUsedInstant" value="1590251621" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
@@ -137,7 +163,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1c0CsTgq1Gd6vMHP0TKVPvld66F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -149,15 +177,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -174,7 +200,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.index.php" />
         <item itemvalue="PHP Script.index.php" />
       </list>
     </recent_temporary>
@@ -197,13 +222,10 @@
       <workItem from="1590094344873" duration="9086000" />
       <workItem from="1590137627456" duration="4368000" />
       <workItem from="1590239310344" duration="5356000" />
-      <workItem from="1590328550599" duration="22118000" />
-      <workItem from="1590419448952" duration="2406000" />
-      <workItem from="1590680500363" duration="111000" />
-      <workItem from="1590680894905" duration="73000" />
-      <workItem from="1590680983079" duration="39000" />
-      <workItem from="1590688791097" duration="3756000" />
-      <workItem from="1590782542835" duration="5053000" />
+      <workItem from="1590333902314" duration="10449000" />
+      <workItem from="1590624748074" duration="798000" />
+      <workItem from="1590683791316" duration="5517000" />
+      <workItem from="1590784576769" duration="6157000" />
     </task>
     <task id="LOCAL-00001" summary="Db bilgileri eklendi">
       <created>1589681229942</created>
@@ -240,35 +262,49 @@
       <option name="project" value="LOCAL" />
       <updated>1590250042808</updated>
     </task>
-    <task id="LOCAL-00006" summary="Etkinlik butonu disable kısmı yapıldı">
-      <created>1590280798997</created>
+    <task id="LOCAL-00006" summary="Tekli etkinlik gösterimi (card-img-top)">
+      <created>1590253098948</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1590280798997</updated>
+      <updated>1590253098948</updated>
     </task>
-    <task id="LOCAL-00007" summary="Etkinlik sayfaso responsive yapıldı">
-      <created>1590281429889</created>
+    <task id="LOCAL-00007" summary="Tekli etkinlik gösterimi (card-img-top)">
+      <created>1590257020134</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1590281429889</updated>
+      <updated>1590257020134</updated>
     </task>
-    <task id="LOCAL-00008" summary="Kulup ana sayfa, etkinlik sayfası, gridView için item olarak gösterimleri ve bildirimler sayfası bitti. Dropdown menu item a bildirimler ve sayaç göstergesi eklendi">
-      <created>1590357002596</created>
+    <task id="LOCAL-00008" summary="Bazi modeller eklendi">
+      <created>1590345990478</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1590357002596</updated>
+      <updated>1590345990478</updated>
     </task>
-    <task id="LOCAL-00009" summary="Kulup ana sayfa, etkinlik sayfası, gridView için item olarak gösterimleri ve bildirimler sayfası bitti. Dropdown menu item a bildirimler ve sayaç göstergesi eklendi">
-      <created>1590691152953</created>
+    <task id="LOCAL-00009" summary="Bazi modeller eklendi">
+      <created>1590690269491</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1590691152953</updated>
+      <updated>1590690269491</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="EtkinlikProvider">
+      <created>1590790138882</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590790138882</updated>
+    </task>
+    <task id="LOCAL-00011" summary="EtkinlikKatilimci model">
+      <created>1590791050430</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590791050430</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +321,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/hakan" />
+                        <option value="origin/deniz" />
                       </list>
                     </value>
                   </entry>
@@ -305,74 +341,77 @@
     <MESSAGE value="Modeller eklendi." />
     <MESSAGE value="Kulüp profili için dashboard yapıldı ana sayfaları link bağlamak için oluşturuldu. KulupController oluşturuldu. GridView için kulüp kart gösterimi yapıldı." />
     <MESSAGE value="Tekli etkinlik gösterimi (card-img-top)" />
-    <MESSAGE value="Etkinlik butonu disable kısmı yapıldı" />
-    <MESSAGE value="Etkinlik sayfaso responsive yapıldı" />
-    <MESSAGE value="Kulup ana sayfa, etkinlik sayfası, gridView için item olarak gösterimleri ve bildirimler sayfası bitti. Dropdown menu item a bildirimler ve sayaç göstergesi eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kulup ana sayfa, etkinlik sayfası, gridView için item olarak gösterimleri ve bildirimler sayfası bitti. Dropdown menu item a bildirimler ve sayaç göstergesi eklendi" />
+    <MESSAGE value="Bazi modeller eklendi" />
+    <MESSAGE value="EtkinlikProvider" />
+    <MESSAGE value="EtkinlikKatilimci model" />
+    <option name="LAST_COMMIT_MESSAGE" value="EtkinlikKatilimci model" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590691376630">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590789694394">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590691376630" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1590691152030">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590789694394" />
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1590251461839" />
+    <state x="-1529" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590251461839" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590251461839" />
+    <state x="532" y="323" key="ComposerInitDialogKey" timestamp="1590251461839" />
+    <state x="532" y="323" key="ComposerInitDialogKey/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590251461839" />
+    <state width="1023" height="235" key="GridCell.Tab.0.bottom" timestamp="1590789793478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-1529" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590688874568" />
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590691152030" />
-    <state x="532" y="323" key="ComposerInitDialogKey" timestamp="1590688874568" />
-    <state x="532" y="323" key="ComposerInitDialogKey/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
-    <state x="177" y="83" key="MergeDialog" timestamp="1590688874568" />
-    <state x="177" y="83" key="MergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
-    <state x="370" y="114" width="855" height="632" key="MultipleFileMergeDialog" timestamp="1590691201766">
+    <state width="1023" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590789793478" />
+    <state width="1023" height="235" key="GridCell.Tab.0.center" timestamp="1590789793477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="370" y="114" width="855" height="632" key="MultipleFileMergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
-    <state x="370" y="114" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1590691201766" />
-    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1590784612577">
+    <state width="1023" height="235" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590789793477" />
+    <state width="1023" height="235" key="GridCell.Tab.0.left" timestamp="1590789793477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1590784612577" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1590691159122">
+    <state width="1023" height="235" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590789793477" />
+    <state width="1023" height="235" key="GridCell.Tab.0.right" timestamp="1590789793478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590688874568" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590691159122" />
-    <state x="349" y="67" key="com.intellij.database.dbimport.ImportDialog" timestamp="1590787498156">
+    <state width="1023" height="235" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590789793478" />
+    <state width="211" height="539" key="HiddenNamespacesPopup" timestamp="1590789628300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="349" y="67" key="com.intellij.database.dbimport.ImportDialog/0.0.1536.824@0.0.1536.824" timestamp="1590787498156" />
-    <state x="499" y="217" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1590787559300">
+    <state width="211" height="539" key="HiddenNamespacesPopup/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590789628300" />
+    <state x="177" y="83" key="MergeDialog" timestamp="1590789265790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="217" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1536.824@0.0.1536.824" timestamp="1590787559300" />
-    <state x="-1343" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590688874568" />
-    <state x="-1343" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590688874568" />
-    <state x="464" y="201" key="git4idea.merge.GitPullDialog" timestamp="1590691180963">
+    <state x="177" y="83" key="MergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590789265790" />
+    <state x="370" y="114" width="855" height="632" key="MultipleFileMergeDialog" timestamp="1590251461839" />
+    <state x="370" y="114" width="855" height="632" key="MultipleFileMergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590251461839" />
+    <state x="531" y="31" key="RollbackChangesDialog" timestamp="1590789133184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="464" y="201" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1590691180963" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1590788229235">
+    <state x="531" y="31" key="RollbackChangesDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590789133184" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1590791077599">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590788229235" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590688874568" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/basic/views/kulup/kulup.php</url>
-          <line>1</line>
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590251461839" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590791077599" />
+    <state x="643" y="292" width="307" height="263" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590787742983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="643" y="292" width="307" height="263" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590787742983" />
+    <state x="349" y="67" key="com.intellij.database.dbimport.ImportDialog" timestamp="1590690668231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="67" key="com.intellij.database.dbimport.ImportDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590690668231" />
+    <state x="-1343" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590688700533">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1343" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590251461839" />
+    <state x="-1343" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688700533" />
+    <state x="476" y="43" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590789255656">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="476" y="43" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590789255656" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590251461839" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590251461839" />
   </component>
 </project>
