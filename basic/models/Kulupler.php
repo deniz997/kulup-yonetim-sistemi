@@ -79,7 +79,7 @@ class Kulupler extends ActiveRecord
      */
     public function getKulupUyes()
     {
-        return $this->hasMany(KulupUye::className(), ['kulup_id' => 'id']);
+        return $this->hasMany(KulupUyeler::className(), ['kulup_id' => 'id']);
     }
 
     /**
