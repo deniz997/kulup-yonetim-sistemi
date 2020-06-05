@@ -121,8 +121,8 @@ $img_exist = true;
                 'pager' => [
                     'class' => LinkPager::class,
                 ],
-                'itemView' => '_etkinlik_item',
-                'layout' => '<div class="row justify-content-start">{items}</div><div class="d-flex justify-content-center">{pager}</div>',
+                'itemView' => '/events/_etkinlik_item',
+                'layout' => '<div class="card-deck">{items}</div><div class="d-flex justify-content-center">{pager}</div>',
                 'itemOptions' => [
                     'tag' => false
                 ],

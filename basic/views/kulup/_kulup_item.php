@@ -31,7 +31,7 @@ use yii\helpers\Html; ?>
             </ul>
         </small>
     </div>
-    <a class="card-footer bg-secondary stretched-link text-decoration-none" href="kulup/profile">
+    <a class="card-footer bg-secondary stretched-link text-decoration-none" href="/kulup/profile?id=1">
         <div class="text-center text-white my-auto ">Kulüp sayfasına git</div>
     </a>
     </a>

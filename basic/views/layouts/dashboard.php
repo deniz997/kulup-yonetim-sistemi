@@ -26,7 +26,7 @@ $this->beginContent('@app/views/layouts/main.php'); ?>
 
             <!-- Nav Item - Events -->
             <li class="nav-item active">
-                <a class="nav-link" href="/kulup/etkinlikler">
+                <a class="nav-link" href="/events/index">
                     <i class="far fa-calendar-alt"></i>
                     <span>Etkinlikler</span></a>
             </li>

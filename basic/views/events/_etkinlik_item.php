@@ -3,7 +3,7 @@
 /* @var $model app\models\Etkinlik */
 $img_exist = true;
 ?>
-<div class="card shadow-lg col-lg-3 col-xs-12 mx-3 p-0">
+<div class="card shadow-lg  mx-3 p-0">
     <?php if ($img_exist) {
         echo Html::img('@web/img/conference.jpg', ['class' => 'card-img-top img-fluid', 'style' => 'object-fit:cover; height:150px; width:100%']);
         echo '<div class="card-img-overlay d-flex justify-content-end py-3 px-3">
@@ -33,16 +33,16 @@ $img_exist = true;
         </div>';
     } ?>
 
-    <div class="card-body pb-0 px-0">
+    <div class="card-body py-auto px-0">
         <div class="row col-12">
-            <div class="col-4 my-auto mr-3 mx-auto">
+            <div class="col-4 mr-3 my-auto mx-auto">
                 <h5 class="text-danger font-weight-bold text-center mb-0">Haz</h5>
                 <h5 class="font-weight-bold text-center">22</h5>
             </div>
-            <div class="col-8">
+            <div class="col-8 my-auto">
                 <p class="card-text font-weight-bold mb-2"><?php echo $model->adi ?></p>
                 <small>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled mb-0">
                         <?php if ($model->getKatilimciEtkinliks()->one() != null) {
                             echo '<li class="row"><i class="fas fa-user-friends mt-1 mr-2"></i>
                             <ul class="list-unstyled">';
@@ -73,7 +73,7 @@ $img_exist = true;
             </div>
         </small>
         <div class="card-footer bg-secondary">
-            <a class="stretched-link text-decoration-none" href="/kulup/etkinlik">
+            <a class="stretched-link text-decoration-none" href="/events/event">
                 <p class="card-text text-white d-flex">
                     <small>Etkinliği gör</small>
                     <i class="fas fa-arrow-right my-auto ml-auto"></i></p>

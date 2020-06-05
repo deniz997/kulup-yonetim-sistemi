@@ -1,6 +1,6 @@
 <?php
 
-/* @var $this \yii\web\View */
+/* @var $this View */
 
 /* @var $content string */
 
@@ -8,6 +8,7 @@ use app\assets\AppAsset;
 use yii\bootstrap4\Nav;
 use yii\bootstrap4\NavBar;
 use yii\helpers\Html;
+use yii\web\View;
 
 AppAsset::register($this);
 ?>
@@ -40,7 +41,7 @@ AppAsset::register($this);
             'options' => ['class' => 'navbar-nav ml-auto align-content-right text-center'],
             'items' => [
                 ['label' => 'Anasayfa', 'url' => ['/site/index']],
-                ['label' => 'Kulüpler', 'url' => ['/kulupler']],
+                ['label' => 'Kulüpler', 'url' => ['/kulup/index']],
                 ['label' => 'İstatistikler', 'url' => ['/site/contact']],
                 Yii::$app->user->isGuest ? (
                 ['label' => 'Giriş yap', 'url' => ['/site/login']]
@@ -48,7 +49,7 @@ AppAsset::register($this);
 
                 ['label' => ucfirst(Yii::$app->user->identity->username),
                     'items' => [['label' => 'Kulüplerim', 'url' => '/kayitli-kulupler'],
-                        ['label' => Html::tag('div', '<div class="float-left"><p class="float-left my-auto">Bildirimler</p></div><div class="rounded ml-auto bg-danger text-white"><small><h9 class="my-auto px-1">10</h9></small></div>', ['class' => 'd-flex my-auto']), 'url' => '/bildirimler',],
+                        ['label' => Html::tag('div', '<div class="float-left"><p class="float-left my-auto">Bildirimler</p></div><div class="rounded ml-auto bg-danger text-white"><small><h9 class="my-auto px-1">10</h9></small></div>', ['class' => 'd-flex my-auto']), 'url' => '/user/notifications',],
                         ['label' => 'Çıkış yap',
                             'url' => ['site/logout'],
                             'linkOptions' => [

@@ -10,17 +10,45 @@ namespace app\controllers;
 
 
 use app\models\Etkinlik;
+use app\models\KulupInfos;
 use yii\data\ActiveDataProvider;
+use yii\db\Exception;
 use yii\web\Controller;
 
 class KulupController extends Controller
 {
     public $layout = 'dashboard';
 
+    /**
+     * Displays Kulüpler page.
+     *
+     * @return string
+     * @throws Exception
+     */
+
     public function actionIndex()
     {
+        $this->layout = 'basic';
 
-        return $this->render('kulup');
+//        $provider = new SqlDataProvider([
+//            'sql' => "SELECT kulupler.name,
+//       kulupler.acilis ,
+//       kulupler.logo,
+//       count(kulup_uye.kulup_id) AS \"Uye Sayisi\",
+//       count(etkinlik.kulup_id) AS \"Etkinlik Sayisi\"
+//        FROM ((kulupler Left JOIN kulup_uye  ON kulupler.id = kulup_uye.kulup_id)
+//         Left JOIN etkinlik ON kulupler.id = etkinlik.kulup_id) WHERE kulup_uye.is_approved = TRUE GROUP BY kulupler.name, kulupler.acilis, kulupler.logo
+//         "
+//        ]);
+
+        $provider = new ActiveDataProvider([
+            'query' => KulupInfos::find(),
+            'pagination' => ['pageSize' => 20,]
+        ]);
+
+        return $this->render('index', [
+            'provider' => $provider,
+        ]);
     }
 
     public function actionProfile($id)
@@ -36,10 +64,6 @@ class KulupController extends Controller
         ]);
     }
 
-    public function actionEtkinlikler()
-    {
-        return $this->render('etkinlikler');
-    }
 
     public function actionEtkinlik()
     {

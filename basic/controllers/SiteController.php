@@ -2,11 +2,8 @@
 
 namespace app\controllers;
 
-use app\models\KulupInfos;
 use app\models\LoginForm;
 use Yii;
-use yii\data\ActiveDataProvider;
-use yii\db\Exception;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
@@ -70,6 +67,11 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionBildirimler()
+    {
+        return $this->render('bildirimler');
+    }
+
     /**
      * Login action.
      *
@@ -104,34 +106,5 @@ class SiteController extends Controller
         return $this->goHome();
     }
 
-    /**
-     * Displays Kulüpler page.
-     *
-     * @return string
-     * @throws Exception
-     */
 
-    public function actionKulupler()
-    {
-
-//        $provider = new SqlDataProvider([
-//            'sql' => "SELECT kulupler.name,
-//       kulupler.acilis ,
-//       kulupler.logo,
-//       count(kulup_uye.kulup_id) AS \"Uye Sayisi\",
-//       count(etkinlik.kulup_id) AS \"Etkinlik Sayisi\"
-//        FROM ((kulupler Left JOIN kulup_uye  ON kulupler.id = kulup_uye.kulup_id)
-//         Left JOIN etkinlik ON kulupler.id = etkinlik.kulup_id) WHERE kulup_uye.is_approved = TRUE GROUP BY kulupler.name, kulupler.acilis, kulupler.logo
-//         "
-//        ]);
-
-        $provider = new ActiveDataProvider([
-            'query' => KulupInfos::find(),
-            'pagination' => ['pageSize' => 20,]
-        ]);
-
-        return $this->render('kulupler', [
-            'provider' => $provider,
-        ]);
-    }
 }
