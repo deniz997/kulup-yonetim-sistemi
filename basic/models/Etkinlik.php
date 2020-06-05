@@ -93,6 +93,8 @@ class Etkinlik extends ActiveRecord
 
     public function getKulup()
     {
+        //Kulup var mi yok mu testi eksik
+
         return Kulupler::find()->where('id=:id', [
             ':id' => $this->kulup_id
         ])->one();

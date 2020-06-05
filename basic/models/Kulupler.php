@@ -13,14 +13,13 @@ use yii\db\ActiveRecord;
  * @property string|null $danisman_mail
  * @property string|null $email
  * @property string|null $amac
- * @property string|null $faaliyet_kapsami
  * @property int|null $aktif
  * @property string|null $logo
  * @property string $acilis
  *
- *
  * @property GenelKurulForm[] $genelKurulForms
  * @property KulupUye[] $kulupUyes
+ * @property KulupFaaliyetAlani $id0
  */
 class Kulupler extends ActiveRecord
 {
@@ -41,7 +40,8 @@ class Kulupler extends ActiveRecord
             [['aktif'], 'integer'],
             [['acilis'], 'required'],
             [['acilis'], 'safe'],
-            [['name', 'danisman_mail', 'email', 'amac', 'faaliyet_kapsami', 'logo'], 'string', 'max' => 255],
+            [['name', 'danisman_mail', 'email', 'amac', 'logo'], 'string', 'max' => 255],
+            [['id'], 'exist', 'skipOnError' => true, 'targetClass' => KulupFaaliyetAlani::className(), 'targetAttribute' => ['id' => 'id']],
         ];
     }
 
@@ -56,7 +56,6 @@ class Kulupler extends ActiveRecord
             'danisman_mail' => 'Danisman Mail',
             'email' => 'Email',
             'amac' => 'Amac',
-            'faaliyet_kapsami' => 'Faaliyet Kapsami',
             'aktif' => 'Aktif',
             'logo' => 'Logo',
             'acilis' => 'Acilis',
@@ -80,12 +79,17 @@ class Kulupler extends ActiveRecord
      */
     public function getKulupUyes()
     {
-        return $this->hasMany(KulupUyeler::className(), ['kulup_id' => 'id']);
+        return $this->hasMany(KulupUye::className(), ['kulup_id' => 'id']);
     }
 
-    public function getEtkinlikNumbers()
+    /**
+     * Gets query for [[Id0]].
+     *
+     * @return ActiveQuery|KulupFaaliyetAlaniQuery
+     */
+    public function getFaaliyetAlani()
     {
-        return $this->hasMany(Etkinlik::class, ['kulup_id' => 'id']);
+        return $this->hasOne(KulupFaaliyetAlani::className(), ['id' => 'id']);
     }
 
     /**

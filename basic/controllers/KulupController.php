@@ -11,6 +11,7 @@ namespace app\controllers;
 
 use app\models\Etkinlik;
 use app\models\KulupInfos;
+use app\models\Kulupler;
 use yii\data\ActiveDataProvider;
 use yii\db\Exception;
 use yii\web\Controller;
@@ -57,10 +58,15 @@ class KulupController extends Controller
         $etkinlikProvider = new ActiveDataProvider([
             'query' => Etkinlik::find()->where('kulup_id=:id', [
                 ':id' => $id
-            ])
+            ]),
         ]);
+
+        $kulup = Kulupler::find()->where('id=:id', [
+            ':id' => $id
+        ])->one();
         return $this->render('profile', [
-            'etkinlikProvider' => $etkinlikProvider
+            'etkinlikProvider' => $etkinlikProvider,
+            'kulup' => $kulup
         ]);
     }
 
