@@ -7,11 +7,13 @@
  */
 
 /* @var $etkinlikProvider yii\data\ActiveDataProvider */
+/* @var $kulup app\models\Kulupler */
+
+/* @var $faaliyetAlanı app\models\Faali */
 
 use yii\bootstrap4\LinkPager;
 use yii\widgets\ListView;
 
-$img_exist = true;
 ?>
 
 <div class="row mb-n5">
@@ -25,31 +27,11 @@ $img_exist = true;
             <div class="card-body">
                 <h5 class="card-title mb-3">Hakkımızda</h5>
                 <hr class="mt-0">
-                <p class="card-text">
-                    Biz Türk-Alman Üniversitesinde faaliyetlerini sürdüren bir öğrenci kulübüyüz. Ağırlıklı olarak
-                    Bilgisayar
-                    Mühendisliği bölümü öğrencilerinden oluşuyoruz.
-
-                    Kendi alanımızla sınırlı kalmadan olabildiğince farklı bölümlere ulaşmayı ve karşılıklı olarak
-                    gelişmeyi
-                    amaçlamaktayız.
-
-                    Bu karşılıklı gelişmenin yeni fikirlerin desteklenmesi ve hayata geçirilmesi ile mümkün olduğuna
-                    inanıyoruz.
-                    Sizler de “yapacağım” diyerek vakit geçirmek yerine “yaptım” diyebilmek istiyorsanız, bizler
-                    fikirlerinizi
-                    desteklemek için buradayız.
-
-                    Etrafımızın her geçen gün daha çok teknoloji ile donatıldığı dünyamızda bilgisayar bilimi artık her
-                    yerde.
-                    Bu nedenle çalışmalarımızı sadece bu alanla sınırlamıyor, “Multidisiplinerlik” kavramını
-                    yaygınlaştırmak ve
-                    bilgiye ulaşımı kolaylaştırmak , birbirinden öğrenmeyi teşvik etmek adına; projeler,
-                    dersler(workshoplar)
-                    yapıyor, çeşitli etkinlikler düzenliyoruz.</p>
+                <p class="card-text"><?php echo $kulup->amac ?></p>
                 <h5 class="card-title">Faaliyet alanı</h5>
                 <hr class="mt-0">
                 <div class="row">
+                    <?php ?>
                     <small>
                         <div class="rounded bg-primary px-2 py-1 m-1"><p class="my-0 text-white">Mesleki</p></div>
                     </small>
@@ -132,9 +114,3 @@ $img_exist = true;
     </div>
 </div>
 
-<div class="d-flex my-auto mx-3">
-    <i class="fab fa-instagram fa-lg"></i>
-    <i class="fab fa-facebook-square fa-lg"></i>
-    <i class="fab fa-linkedin fa-lg"></i>
-    <i class="fas fa-link fa-lg"></i>
-</div>
