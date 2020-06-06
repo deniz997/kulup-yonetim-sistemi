@@ -3,7 +3,7 @@
 /* @var $model app\models\Etkinlik */
 $img_exist = true;
 ?>
-<div class="card shadow-lg  mx-3 p-0">
+<div class="card shadow-lg mx-md-3 mx-0 p-0">
     <?php if ($img_exist) {
         echo Html::img('@web/img/conference.jpg', ['class' => 'card-img-top img-fluid', 'style' => 'object-fit:cover; height:150px; width:100%']);
         echo '<div class="card-img-overlay d-flex justify-content-end py-3 px-3">
