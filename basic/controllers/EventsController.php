@@ -4,6 +4,7 @@
 namespace app\controllers;
 
 
+use app\models\Etkinlik;
 use yii\web\Controller;
 
 class EventsController extends Controller
@@ -19,5 +20,12 @@ class EventsController extends Controller
     {
         $this->layout = 'main';
         return $this->render('event');
+    }
+
+    public function actionNewEvent()
+    {
+        $etkinlik = new Etkinlik();
+        return $this->render('newEtkinlik',
+            ['model' => $etkinlik]);
     }
 }
