@@ -9,7 +9,6 @@
 namespace app\controllers;
 
 
-use app\models\KulupInfos;
 use app\models\Kulupler;
 use yii\data\ActiveDataProvider;
 use yii\db\Exception;
@@ -42,8 +41,8 @@ class KulupController extends Controller
 //        ]);
 
         $provider = new ActiveDataProvider([
-            'query' => KulupInfos::find(),
-            'pagination' => ['pageSize' => 20,]
+            'query' => Kulupler::find(),
+            'pagination' => ['pageSize' => 9,]
         ]);
 
         return $this->render('index', [
