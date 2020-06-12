@@ -17,9 +17,10 @@ use yii\db\ActiveRecord;
  * @property string|null $logo
  * @property string $acilis
  *
+ * @property Etkinlik[] $etkinliks
  * @property GenelKurulForm[] $genelKurulForms
- * @property KulupUye[] $kulupUyes
- * @property KulupFaaliyetAlani $id0
+ * @property KulupFaaliyet[] $kulupFaaliyets
+ * @property KulupUyeler[] $kulupUyes
  */
 class Kulupler extends ActiveRecord
 {
@@ -37,11 +38,11 @@ class Kulupler extends ActiveRecord
     public function rules()
     {
         return [
+            [['amac'], 'string'],
             [['aktif'], 'integer'],
             [['acilis'], 'required'],
             [['acilis'], 'safe'],
-            [['name', 'danisman_mail', 'email', 'amac', 'logo'], 'string', 'max' => 255],
-            [['id'], 'exist', 'skipOnError' => true, 'targetClass' => KulupFaaliyetAlani::className(), 'targetAttribute' => ['id' => 'id']],
+            [['name', 'danisman_mail', 'email', 'logo'], 'string', 'max' => 255],
         ];
     }
 
@@ -63,6 +64,16 @@ class Kulupler extends ActiveRecord
     }
 
     /**
+     * Gets query for [[Etkinliks]].
+     *
+     * @return ActiveQuery|EtkinlikQuery
+     */
+    public function getEtkinliks()
+    {
+        return $this->hasMany(Etkinlik::className(), ['kulup_id' => 'id']);
+    }
+
+    /**
      * Gets query for [[GenelKurulForms]].
      *
      * @return ActiveQuery|GenelKurulFormQuery
@@ -73,6 +84,16 @@ class Kulupler extends ActiveRecord
     }
 
     /**
+     * Gets query for [[KulupFaaliyets]].
+     *
+     * @return ActiveQuery|KulupFaaliyetQuery
+     */
+    public function getKulupFaaliyets()
+    {
+        return $this->hasMany(KulupFaaliyet::className(), ['kulup_id' => 'id']);
+    }
+
+    /**
      * Gets query for [[KulupUyes]].
      *
      * @return ActiveQuery|KulupUyeQuery
@@ -80,16 +101,6 @@ class Kulupler extends ActiveRecord
     public function getKulupUyes()
     {
         return $this->hasMany(KulupUyeler::className(), ['kulup_id' => 'id']);
-    }
-
-    /**
-     * Gets query for [[Id0]].
-     *
-     * @return ActiveQuery|KulupFaaliyetAlaniQuery
-     */
-    public function getFaaliyetAlani()
-    {
-        return $this->hasOne(KulupFaaliyetAlani::className(), ['id' => 'id']);
     }
 
     /**

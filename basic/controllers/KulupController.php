@@ -9,7 +9,6 @@
 namespace app\controllers;
 
 
-use app\models\Etkinlik;
 use app\models\KulupInfos;
 use app\models\Kulupler;
 use yii\data\ActiveDataProvider;
@@ -55,18 +54,36 @@ class KulupController extends Controller
     public function actionProfile($id)
     {
 
-        $etkinlikProvider = new ActiveDataProvider([
-            'query' => Etkinlik::find()->where('kulup_id=:id', [
-                ':id' => $id
-            ]),
-        ]);
+        //Debug amacli, kulubun faaliyetlerinden birini yazdiriyor
+//        var_dump( KulupFaaliyet::find()->where('kulup_id=:id',[
+//            ':id' => $id
+//        ])->all()[2]->faaliyet->isim);
 
+
+        //Kulubun kendisini veren provider
         $kulup = Kulupler::find()->where('id=:id', [
             ':id' => $id
         ])->one();
+
+        //Kulubun etkinliklerini veren provider
+        $etkinlikProvider = new ActiveDataProvider([
+            'query' => $kulup->getEtkinliks(),
+        ]);
+
+        $faaliyets = $kulup->getKulupFaaliyets()->all();
+        $kulupfaaliyet = array();
+
+        foreach ($faaliyets as $faaliyet) {
+            $kulupfaaliyet[] = $faaliyet->faaliyet->isim;
+        }
+
+        //Bir faaliyet listede var mi yok mu kontrol etmenin dogru yolu
+        var_dump(in_array("Sportif", $kulupfaaliyet, true));
+
         return $this->render('profile', [
             'etkinlikProvider' => $etkinlikProvider,
-            'kulup' => $kulup
+            'kulup' => $kulup,
+            'faaliyetler' => $kulupfaaliyet
         ]);
     }
 
