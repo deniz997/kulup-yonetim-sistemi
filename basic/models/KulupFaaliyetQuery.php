@@ -5,11 +5,11 @@ namespace app\models;
 use yii\db\ActiveQuery;
 
 /**
- * This is the ActiveQuery class for [[KulupFaaliyetAlani]].
+ * This is the ActiveQuery class for [[KulupFaaliyet]].
  *
- * @see KulupFaaliyetAlani
+ * @see KulupFaaliyet
  */
-class KulupFaaliyetAlaniQuery extends ActiveQuery
+class KulupFaaliyetQuery extends ActiveQuery
 {
     /*public function active()
     {
@@ -18,7 +18,7 @@ class KulupFaaliyetAlaniQuery extends ActiveQuery
 
     /**
      * {@inheritdoc}
-     * @return KulupFaaliyetAlani[]|array
+     * @return KulupFaaliyet[]|array
      */
     public function all($db = null)
     {
@@ -27,7 +27,7 @@ class KulupFaaliyetAlaniQuery extends ActiveQuery
 
     /**
      * {@inheritdoc}
-     * @return KulupFaaliyetAlani|array|null
+     * @return KulupFaaliyet|array|null
      */
     public function one($db = null)
     {

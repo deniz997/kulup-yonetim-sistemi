@@ -14,7 +14,7 @@ use yii\db\ActiveRecord;
  * @property string|null $email
  * @property int|null $departmentID
  *
- * @property KulupUye[] $kulupUyes
+ * @property KulupUyeler[] $kulupUyes
  * @property Department $department
  */
 class Ogrenci extends ActiveRecord
