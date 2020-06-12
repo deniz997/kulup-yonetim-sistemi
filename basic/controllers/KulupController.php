@@ -77,7 +77,7 @@ class KulupController extends Controller
         }
 
         //Bir faaliyet listede var mi yok mu kontrol etmenin dogru yolu
-        var_dump(in_array("Sportif", $kulupfaaliyet, true));
+//        var_dump(in_array("Mesleki", $kulupfaaliyet, true));
 
         return $this->render('profile', [
             'etkinlikProvider' => $etkinlikProvider,
@@ -86,14 +86,6 @@ class KulupController extends Controller
         ]);
     }
 
-
-    public function actionEtkinlik()
-    {
-        $this->layout = 'main';
-
-
-        return $this->render('etkinlik');
-    }
 
     public function actionIstatistikler()
     {

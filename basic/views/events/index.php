@@ -160,7 +160,7 @@ $img_exist = true;
             </small>
 
         </div>
-        <a class="card-footer bg-secondary stretched-link text-decoration-none" href="/kulup/etkinlik">
+        <a class="card-footer bg-secondary stretched-link text-decoration-none" href="/events/event?id=1">
             <p class="card-text text-white d-flex">
                 <small>Etkinliği gör</small>
                 <i class="fas fa-arrow-right my-auto ml-auto"></i></p>
@@ -207,7 +207,7 @@ $img_exist = true;
             </small>
 
         </div>
-        <a class="card-footer bg-secondary stretched-link text-decoration-none" href="/kulup/etkinlik">
+        <a class="card-footer bg-secondary stretched-link text-decoration-none" href="/events/event?id=1">
             <p class="card-text text-white d-flex">
                 <small>Etkinliği gör</small>
                 <i class="fas fa-arrow-right my-auto ml-auto"></i></p>
@@ -252,7 +252,7 @@ $img_exist = true;
             </small>
 
         </div>
-        <a class="card-footer bg-secondary stretched-link text-decoration-none" href="/kulup/etkinlik">
+        <a class="card-footer bg-secondary stretched-link text-decoration-none" href="/events/event?id=1">
             <p class="card-text text-white d-flex">
                 <small>Etkinliği gör</small>
                 <i class="fas fa-arrow-right my-auto ml-auto"></i></p>
@@ -297,7 +297,7 @@ $img_exist = true;
             </small>
 
         </div>
-        <a class="card-footer bg-secondary stretched-link text-decoration-none" href="/kulup/etkinlik">
+        <a class="card-footer bg-secondary stretched-link text-decoration-none" href="/events/event?id=1">
             <p class="card-text text-white d-flex">
                 <small>Etkinliği gör</small>
                 <i class="fas fa-arrow-right my-auto ml-auto"></i></p>

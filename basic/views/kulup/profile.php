@@ -10,7 +10,8 @@
 /* @var $kulup app\models\Kulupler */
 
 /* @var $faaliyetAlani app\models\KulupFaaliyetAlani */
-$faaliyetAlani = $kulup->getFaaliyetAlani()->one();
+
+/* @var $faaliyetler */
 
 use yii\bootstrap4\LinkPager;
 use yii\widgets\ListView;
@@ -32,38 +33,41 @@ use yii\widgets\ListView;
                 <h5 class="card-title">Faaliyet alanı</h5>
                 <hr class="mt-0">
                 <div class="row pl-2">
-                    <?php if ($faaliyetAlani->mesleki) {
+                    <?php if (in_array("mesleki", $faaliyetler, true)) {
                         echo '<small>
                         <div class="rounded bg-primary px-2 py-1 m-1"><p class="my-0 text-white">Mesleki</p></div>
                     </small>';
                     }
-                    if ($faaliyetAlani->bilimsel) {
+                    if (in_array("bilimsel", $faaliyetler, true)) {
                         echo '<small>
                         <div class="rounded bg-success px-2 py-1 m-1"><p class="my-0 text-white">Bilimsel</p></div>
                     </small>';
                     }
-                    if ($faaliyetAlani->kulturel) {
+                    if (in_array("kulturel", $faaliyetler, true)) {
                         echo '<small>
                         <div class="rounded bg-danger px-2 py-1 m-1"><p class="my-0 text-white">Kültürel</p></div>
                     </small>';
                     }
-                    if ($faaliyetAlani->sanatsal) {
+                    if (in_array("sanatsal", $faaliyetler, true)) {
                         echo '<small>
                         <div class="rounded px-2 py-1 m-1" style="background-color: #7A43B6;"><p
                                     class="my-0 text-white">Sanatsal</p></div>
                     </small>';
                     }
-                    if ($faaliyetAlani->sportif) {
+                    if (in_array("sportif", $faaliyetler, true)) {
                         echo '<small>
                         <div class="rounded px-2 py-1 m-1" style="background-color: #896A58;"><p
                                     class="my-0 text-white">Sportif</p></div>
                     </small>';
                     }
-                    if ($faaliyetAlani->sosyal) {
+                    if (in_array("sosyal", $faaliyetler, true)) {
                         echo '<small>
                         <div class="rounded px-2 py-1 m-1" style="background-color: #d79228;"><p
                                     class="my-0 text-white">Sosyal</p></div>
                     </small>';
+                    }
+                    if (count($faaliyetler) == 0) {
+                        echo '<small><p class="ml-2">Bu kulübün tanımlanmış faaliyet alanı bulunmamaktadır.</p></small>';
                     }
                     ?>
                 </div>

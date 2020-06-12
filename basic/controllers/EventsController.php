@@ -16,10 +16,14 @@ class EventsController extends Controller
         return $this->render('index');
     }
 
-    public function actionEvent()
+    public function actionEvent($id)
     {
         $this->layout = 'main';
-        return $this->render('event');
+        $etkinlik = Etkinlik::find()->where('id=:id', [
+            ':id' => $id
+        ])->one();
+        return $this->render('event',
+            ['model' => $etkinlik]);
     }
 
     public function actionNewEvent()

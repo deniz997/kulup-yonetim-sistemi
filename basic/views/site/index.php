@@ -2,37 +2,9 @@
 
 /* @var $this yii\web\View */
 
-use yii\helpers\Html;
-
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
-    <div id="carouselExampleIndicators" class="carousel slide bg-gradient-dark d-none d-md-block" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" style=" width:100%; height: 500px !important;">
-            <div class="carousel-item active">
-                <?php echo Html::img('@web/img/vodafone.png', ['class' => 'd-block mx-auto my-auto']) ?>
-            </div>
-            <div class="carousel-item">
-                <?php echo Html::img('@web/img/conference.jpg', ['class' => 'd-block mx-auto my-auto']) ?>
-            </div>
-            <div class="carousel-item">
-                <?php echo Html::img('@web/img/tau_gece.jpg', ['class' => 'd-block mx-auto my-auto']) ?>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
     <div class="container mt-5">
         <div class="jumbotron text-center">
 

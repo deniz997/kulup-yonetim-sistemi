@@ -1,21 +1,21 @@
 <?php use yii\helpers\Html;
 
 /* @var $model app\models\Etkinlik */
-$img_exist = true;
+$img_exist = $model->getEtkinlikFotos()->one() != null;
 ?>
 
 
 <div class="d-flex mt-4 ml-5">
     <div class="card container-fluid ml-5 p-0 bg-gradient-dark mt-2 mb-n4 rounded-left border-0">
         <?php if ($img_exist) {
-            echo Html::img('@web/img/conference.jpg', ['class' => 'card-img img-fluid rounded shadow-lg', 'style' => "opacity:40%; object-fit:cover; height:300px; width:100%"]);
+            echo Html::img('@web' . $model->getEtkinlikFotos()->one()->foto_url, ['class' => 'card-img img-fluid rounded shadow-lg', 'style' => "opacity:40%; object-fit:cover; height:300px; width:100%"]);
         } else {
             echo Html::tag('div', '', ['class' => 'card-img shadow-lg', 'style' => 'object-fit:cover; height:100px; width:100%']);
         } ?>
         <div class="card-img-overlay d-flex flex-column py-0 justify-content-end">
             <h1 class="card-title font-weight-bold text-white <?php if (!$img_exist) {
                 echo 'my-auto';
-            } ?>">Vodafone Gezisi</h1>
+            } ?>"><?php echo $model->adi ?></h1>
         </div>
     </div>
 </div>
@@ -29,38 +29,21 @@ $img_exist = true;
                 <div class="col-lg-7 col-md-12 mb-3">
                     <h2 class="card-subtitle text-secondary mt-2">Etkinlik içeriği</h2>
                     <hr>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dolor dolor,
-                        dignissim
-                        at
-                        gravida in, faucibus id dui. Vestibulum eget leo ante. Morbi id urna turpis. Mauris in accumsan
-                        magna.
-                        Etiam
-                        ultricies nibh sit amet enim varius, at finibus risus molestie. Donec in libero velit. Etiam ut
-                        congue
-                        leo.
-
-                        Praesent mollis gravida lacinia. Donec urna velit, gravida in est et, tempor accumsan libero.
-                        Donec
-                        vel
-                        dui
-                        purus. Nunc laoreet mollis nisi non laoreet. Vestibulum ante ipsum primis in faucibus orci
-                        luctus et
-                        ultrices
-                        posuere cubilia curae; Donec varius, justo vel placerat tristique, odio tellus molestie purus,
-                        sed
-                        vestibulum
-                        erat dolor et massa. Integer egestas, ipsum sed condimentum porta, lectus nisl tristique sem,
-                        nec
-                        interdum massa
-                        nisi quis nulla.</p>
+                    <p class="card-text"><?php echo $model->konusu ?></p>
                 </div>
                 <div class="col-lg-5 col-md-12 ">
                     <h2 class="card-subtitle text-secondary mt-2">Katılımcılar</h2>
                     <hr>
                     <ul class="list-unstyled">
-                        <li><h5><i class="fas fa-user-tie mr-3"></i>Deniz Mert Tecimer</h5></li>
-                        <li><h5><i class="fas fa-user-tie mr-3"></i>Deniz Mert Tecimer</h5></li>
-                        <li><h5><i class="fas fa-user-tie mr-3"></i>Deniz Mert Tecimer</h5></li>
+                        <?php if ($model->getKatilimciEtkinliks()->one() != null) {
+                            echo '<li class="row"><i class="fas fa-user-friends mt-1 mr-2"></i>
+                            <ul class="list-unstyled">';
+                            foreach ($model->getKatilimciEtkinliks()->orderBy('id')->all() as $katilimci) {
+                                echo '<li>' . $katilimci->katilimci_isim . '</li>';
+                            }
+                            echo '</ul>
+                        </li>';
+                        } ?>
                     </ul>
                 </div>
             </div>
@@ -84,7 +67,7 @@ $img_exist = true;
                     <p class="card-subtitle text-center text-dark font-weight-normal mb-0">Etkinlik yeri
                     <hr class="mx-3 my-2">
                     </p>
-                    <h4 class="text-center text-dark font-weight-bold mt-0">YDYO Konferans Salonu</h4>
+                    <h4 class="text-center text-dark font-weight-bold mt-0"><?php echo $model->ortam ?></h4>
                 </div>
             </div>
 
