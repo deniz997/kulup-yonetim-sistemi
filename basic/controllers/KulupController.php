@@ -29,20 +29,13 @@ class KulupController extends Controller
     {
         $this->layout = 'basic';
 
-//        $provider = new SqlDataProvider([
-//            'sql' => "SELECT kulupler.name,
-//       kulupler.acilis ,
-//       kulupler.logo,
-//       count(kulup_uye.kulup_id) AS \"Uye Sayisi\",
-//       count(etkinlik.kulup_id) AS \"Etkinlik Sayisi\"
-//        FROM ((kulupler Left JOIN kulup_uye  ON kulupler.id = kulup_uye.kulup_id)
-//         Left JOIN etkinlik ON kulupler.id = etkinlik.kulup_id) WHERE kulup_uye.is_approved = TRUE GROUP BY kulupler.name, kulupler.acilis, kulupler.logo
-//         "
-//        ]);
-
+        /*Kulup listesi icin provider
+        query = Datayi saglayan SQL query objesi
+        pagination : Gosterilen her sayfanin ozelligi, ornek olarak pagesize 9 yani her bir page de 9 eleman olacak
+        */
         $provider = new ActiveDataProvider([
             'query' => Kulupler::find(),
-            'pagination' => ['pageSize' => 9,]
+            'pagination' => ['pageSize' => 9,],
         ]);
 
         return $this->render('index', [
@@ -52,14 +45,7 @@ class KulupController extends Controller
 
     public function actionProfile($id)
     {
-
-        //Debug amacli, kulubun faaliyetlerinden birini yazdiriyor
-//        var_dump( KulupFaaliyet::find()->where('kulup_id=:id',[
-//            ':id' => $id
-//        ])->all()[2]->faaliyet->isim);
-
-
-        //Kulubun kendisini veren provider
+        //Kulubun kendisi
         $kulup = Kulupler::find()->where('id=:id', [
             ':id' => $id
         ])->one();
@@ -69,6 +55,7 @@ class KulupController extends Controller
             'query' => $kulup->getEtkinliks(),
         ]);
 
+        //Kulubun faaliyetlerini array'e kaydediyoruz.
         $faaliyets = $kulup->getKulupFaaliyets()->all();
         $kulupfaaliyet = array();
 
@@ -77,7 +64,7 @@ class KulupController extends Controller
         }
 
         //Bir faaliyet listede var mi yok mu kontrol etmenin dogru yolu
-//        var_dump(in_array("Mesleki", $kulupfaaliyet, true));
+//        var_dump(in_array("mesleki", $kulupfaaliyet, true));
 
         return $this->render('profile', [
             'etkinlikProvider' => $etkinlikProvider,

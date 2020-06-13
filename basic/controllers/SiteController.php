@@ -67,11 +67,6 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
-    public function actionBildirimler()
-    {
-        return $this->render('bildirimler');
-    }
-
     /**
      * Login action.
      *
@@ -79,16 +74,20 @@ class SiteController extends Controller
      */
     public function actionLogin()
     {
+        //Eger login olunduys home sayfasina git
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
 
         $model = new LoginForm();
+        //Eger form submit edildiyse login yapmaya calis, bilgiler dogruysa onceki sayfaya git
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
+            //TODO Authentication, User ile ogrenciyi baglamamiz gerek!
             return $this->goBack();
         }
 
         $model->password = '';
+        //Islem post islemi degilse view i renderle ve modeli gonder
         return $this->render('login', [
             'model' => $model,
         ]);
