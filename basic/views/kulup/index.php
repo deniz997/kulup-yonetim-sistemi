@@ -11,7 +11,8 @@ use yii\widgets\ListView;
 
 $this->title = 'Kulüpler';
 $this->params['breadcrumbs'][] = $this->title;
-
+//Kulüplerin listelendiği sayfadır.
+//TODO sort,filter,search Functions
 ?>
 
 <?php echo ListView::widget([

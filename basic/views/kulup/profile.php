@@ -6,12 +6,10 @@
  * Time: 00:02
  */
 
-/* @var $etkinlikProvider yii\data\ActiveDataProvider */
-/* @var $kulup app\models\Kulupler */
-
-/* @var $faaliyetAlani app\models\KulupFaaliyetAlani */
-
-/* @var $faaliyetler */
+/* @var $etkinlikProvider yii\data\ActiveDataProvider */ //ListView::Widget'ı bu dataProvider ile besliyoruz, tüm etkinlikleri
+//controller'da belirtilen ayarlarda gönderiyor.
+/* @var $kulup app\models\Kulupler */                   //Kulup objesi
+/* @var $faaliyetler */                                 //KulupFaaliyetAlanları, Array olarak
 
 use yii\bootstrap4\LinkPager;
 use yii\widgets\ListView;
@@ -33,6 +31,8 @@ use yii\widgets\ListView;
                 <h5 class="card-title">Faaliyet alanı</h5>
                 <hr class="mt-0">
                 <div class="row pl-2">
+                    <!--                    Array içerisinde belirtilen faaliyet alanının olup olmadığı kontrol edilir ve ona göre
+                                            gerekli elemanları ekler.-->
                     <?php if (in_array("mesleki", $faaliyetler, true)) {
                         echo '<small>
                         <div class="rounded bg-primary px-2 py-1 m-1"><p class="my-0 text-white">Mesleki</p></div>
@@ -78,6 +78,7 @@ use yii\widgets\ListView;
         <div class="ml-lg-auto">
             <div class="card mb-3 bg-gray-100 mx-auto shadow-lg border-0">
                 <?php
+                //Kullanıcının üyelik seviyesi, üye olup olmadığı burada kontrol edilerek, belirtilen alan özelleştirilir.
                 if (true) {
                     echo '<a class="card-body stretched-link rounded bg-success text-white text-decoration-none" href="">
                     <div class="my-auto text-center">Üyelik isteği gönder</div>
@@ -112,10 +113,12 @@ use yii\widgets\ListView;
         <div class="card-body p-xs-0">
             <div class="row mx-1 my-0">
                 <h5 class="my-auto">Güncel Etkinlikler</h5>
-                <a class="text-decoration-none ml-auto mr-2 my-auto" href="/kulup/etkinlikler">Tümünü gör</a>
+                <a class="text-decoration-none ml-auto mr-2 my-auto" href="/events/">Tümünü gör</a>
             </div>
             <hr>
-            <?php echo ListView::widget([
+            <?php
+            //Etkinlikleri listeleyen widget
+            echo ListView::widget([
                 'dataProvider' => $etkinlikProvider,
                 'pager' => [
                     'class' => LinkPager::class,

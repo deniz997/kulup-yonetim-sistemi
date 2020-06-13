@@ -10,6 +10,7 @@ use yii\helpers\Html;
 
 $this->title = 'Login';
 $this->params['breadcrumbs'][] = $this->title;
+//Dummy login-page. Sadece admin-admin veya demo-demo ile giriş mümkün. Bu bilgiler models/User'dan gelmektedir.
 ?>
 
 

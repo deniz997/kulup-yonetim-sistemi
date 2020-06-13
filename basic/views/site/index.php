@@ -3,6 +3,7 @@
 /* @var $this yii\web\View */
 
 $this->title = 'My Yii Application';
+//Default Yii2 index page
 ?>
 <div class="site-index">
     <div class="container mt-5">

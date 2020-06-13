@@ -6,6 +6,7 @@ use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model app\models\Etkinlik */
 /* @var $form ActiveForm */
+//TODO: form Gii'den çıktığı gibidir. FormField'lerin amacına göre düzenlenmesi gerekir.
 ?>
 <div class="NewEtkinlik">
 
