@@ -141,4 +141,4 @@ $this->beginContent('@app/views/layouts/main.php'); ?>
         </div>
     </div>
 
-<?php $this->endContent('@app/views/layouts/main.php'); ?>
+<?php $this->endContent(); ?>

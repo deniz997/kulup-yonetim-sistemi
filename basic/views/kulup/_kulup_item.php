@@ -4,12 +4,20 @@
 /* @var $form yii\bootstrap4\ActiveForm */
 
 /* @var $model app\models\Kulupler */
+//ListView'daki her bir item'in nasıl görüneceğidir.
+
+$imgExist = $model->logo != null;
 
 use yii\helpers\Html; ?>
 
 <div class="card my-5 shadow-lg col-lg-3 col-xs-12 p-0 mx-3 ">
-    <?php echo Html::img('@web' . $model->logo, ['class' => 'card-img-top rounded-circle img-fluid w-50 mt-n5 mx-auto']) ?>
-    <div class="card-body">
+    <?php
+    if ($imgExist) {
+        echo Html::img('@web/' . $model->logo, ['class' => 'card-img-top rounded-circle img-fluid w-50 mt-n5 mx-auto']);
+    } else {
+        echo Html::img('@web/img/black_200.png', ['class' => 'card-img-top rounded-circle img-fluid w-50 mt-n5 mx-auto']);
+    } ?>
+    <div class="card-body pb-2">
         <h5 class="card-title text-center font-weight-bold"><?php echo $model->name ?></h5>
         <small>
             <ul class="list-unstyled">

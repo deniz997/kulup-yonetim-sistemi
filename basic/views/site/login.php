@@ -23,7 +23,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <div class="card o-hidden border-0 shadow-lg my-5">
                     <div class="card-body p-0">
-                        <!-- Nested Row within Card Body -->
                         <div class="row">
                             <div class="col-lg-6 d-none d-lg-block">
                                 <div class="jumbotron row align-items-center h-100 ml-auto">

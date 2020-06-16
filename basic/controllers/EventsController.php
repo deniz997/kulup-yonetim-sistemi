@@ -43,7 +43,6 @@ class EventsController extends Controller
         //TODO etkinlik post edildikten sonra kaydedilmesi icin gereken kismi yaz
         //TODO etkinlik tablosundaki tur kismini degistir enum yerine int olacak, tur_id gibi, gerekli tablolari ac
 
-
         $etkinlik = new Etkinlik();
         return $this->render('newEtkinlik',
             ['model' => $etkinlik]);

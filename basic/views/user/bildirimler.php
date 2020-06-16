@@ -1,7 +1,9 @@
 <?php
 
 /* @var $this yii\web\View */
-
+//Bildirimlerin, onay bekleyen işlemlerin ve haberleşmenin olduğu sayfadır.
+//Sadece tasarım halindedir.
+//TODO: çalışır hale gelmeli, db bağlantısı sağlanmalı
 $this->title = 'My Yii Application';
 ?>
 
@@ -10,6 +12,7 @@ $this->title = 'My Yii Application';
     <hr class="m-0">
     <div class="row pr-3">
         <div class="col-4 border-right pr-0 overflow-auto" style="height: 500px">
+            <!--                Burada mesajlar listelenir.Sadece tasarım. TODO: çalışır hale gelmeli -->
             <ul class="list-unstyled mb-0">
                 <li class="p-3 m-0 bg-gray-200">
                     <div class="d-flex">
@@ -60,6 +63,8 @@ $this->title = 'My Yii Application';
             </ul>
         </div>
         <div class="col-8 border-0 overflow-auto" style="height: 500px">
+            <!--            Mesajın kendisidir. Konu, gönderen, mesaj ve işlemden oluşur. İşlem mesaj tiplerine göre değişebilir.
+                            Sadece tasarımdır. TODO: çalışır hale gelmeli -->
             <div class="container mt-4">
                 <h5 class="card-title mb-0">Konu: Etkinlik onayı</h5>
                 <small>

@@ -10,6 +10,7 @@ use yii\bootstrap4\NavBar;
 use yii\helpers\Html;
 use yii\web\View;
 
+//Main layout ana layouttur ve full-width özelliğindedir.
 AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>

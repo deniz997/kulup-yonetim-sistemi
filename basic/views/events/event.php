@@ -1,15 +1,22 @@
 <?php use yii\helpers\Html;
 
 /* @var $model app\models\Etkinlik */
+//Etkinliğin kendi sayfası, profili
+
+//Etkinlik görselinin olup olmadığı kontrol edilir.
+//TODO: etkinliğin kulübü sağdaki cardlar gibi gösterilerek eklenecek
 $img_exist = $model->getEtkinlikFotos()->one() != null;
 ?>
 
 
 <div class="d-flex mt-4 ml-5">
     <div class="card container-fluid ml-5 p-0 bg-gradient-dark mt-2 mb-n4 rounded-left border-0">
-        <?php if ($img_exist) {
+        <?php
+        if ($img_exist) {
+            //Etkinlik görseli varsa
             echo Html::img('@web' . $model->getEtkinlikFotos()->one()->foto_url, ['class' => 'card-img img-fluid rounded shadow-lg', 'style' => "opacity:40%; object-fit:cover; height:300px; width:100%"]);
         } else {
+            //Etkinlik görseli yoksa
             echo Html::tag('div', '', ['class' => 'card-img shadow-lg', 'style' => 'object-fit:cover; height:100px; width:100%']);
         } ?>
         <div class="card-img-overlay d-flex flex-column py-0 justify-content-end">
@@ -35,7 +42,9 @@ $img_exist = $model->getEtkinlikFotos()->one() != null;
                     <h2 class="card-subtitle text-secondary mt-2">Katılımcılar</h2>
                     <hr>
                     <ul class="list-unstyled">
-                        <?php if ($model->getKatilimciEtkinliks()->one() != null) {
+                        <?php
+                        //Varsa etkinliğin, katılımcı, konuşmacıları listelenir
+                        if ($model->getKatilimciEtkinliks()->one() != null) {
                             echo '<li class="row"><i class="fas fa-user-friends mt-1 mr-2"></i>
                             <ul class="list-unstyled">';
                             foreach ($model->getKatilimciEtkinliks()->orderBy('id')->all() as $katilimci) {
@@ -51,6 +60,8 @@ $img_exist = $model->getEtkinlikFotos()->one() != null;
         <div class="col-lg-3 col-md-12 ml-lg-auto mt-lg-n5">
             <div class="card mb-2 mt-lg-n5 bg-gray-100 mx-auto shadow-lg">
                 <div class="card-body row justify-content-center">
+                    <!--                    TODO: Etkinlik tarih ve saatinin db'den çekilmesi gerek
+                                            TODO: Bunun tasarım bozulmadan sağlanması gerek-->
                     <h1 class="text-dark my-auto">22</h1>
                     <div class=" ml-1 my-auto">
                         <p class=" text-danger font-weight-bold my-auto" style="line-height: 90%;">Haz</p>
@@ -73,6 +84,8 @@ $img_exist = $model->getEtkinlikFotos()->one() != null;
 
             <div class="card border-0 mt-3 shadow-lg">
                 <?php
+                //TODO: üyenin etkinliğe katılıp katılmadığı kontrol edilmeli,
+                //TODO: katıl butonu buna göre ayarlanmalı
                 if (false) {
                     echo '<a class="card-body stretched-link rounded bg-success text-white text-decoration-none" href="">
                     <div class="my-auto text-center">Etkinliğe katıl</div>
