@@ -1,0 +1,258 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"BRANCH:origin/hakan\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7db8a21f-f2fc-4745-b809-52ad0585648f\" name=\"Default Changelist\" comment=\"Controllers fixed /1\">\r\n      <change afterPath=\"$PROJECT_DIR$/basic/views/site/istatistikler.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources.local.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/dataSources.local.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/basic/views/kulup/profile.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/basic/views/kulup/profile.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\" doNotAsk=\"true\" synchronizationState=\"SYNCHRONIZE\">\r\n    <pharConfigPath>$PROJECT_DIR$/basic/composer.json</pharConfigPath>\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"PhpWorkspaceProjectConfiguration\" interpreter_name=\"PHP\">\r\n    <include_path>\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/code-unit-reverse-lookup\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/myclabs/deep-copy\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/opis/closure\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/version\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/theseer/tokenizer\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/type\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/diff\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/object-reflector\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/resource-operations\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/exporter\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/environment\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/comparator\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/css-selector\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/dom-crawler\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/finder\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/event-dispatcher-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/object-enumerator\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/yaml\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/recursion-context\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/polyfill-ctype\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/sebastian/global-state\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/polyfill-mbstring\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/service-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/module-asserts\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/console\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/browser-kit\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/ralouphie/getallheaders\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/symfony/polyfill-php73\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/verify\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/codeception\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/fzaninotto/faker\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/stub\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/webmozart/assert\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpspec/php-diff\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/ezyang/htmlpurifier\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpspec/prophecy\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/php-code-coverage\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/phpunit\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/php-file-iterator\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/php-timer\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/doctrine/instantiator\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/php-text-template\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/specify\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpunit/php-token-stream\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/bower-asset/jquery\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/lib-innerbrowser\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/lib-asserts\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/module-filesystem\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/bower-asset/inputmask\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/cebe/markdown\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/bower-asset/yii2-pjax\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/bower-asset/punycode\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/npm-asset/bootstrap\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phar-io/manifest\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phar-io/version\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/module-yii2\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/codeception/phpunit-wrapper\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2-gii\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/psr/container\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2-composer\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/psr/http-message\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2-debug\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/guzzlehttp/psr7\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/psr/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2-faker\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/behat/gherkin\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpdocumentor/type-resolver\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-common\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/yiisoft/yii2-bootstrap4\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/composer\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/almasaeed2010/adminlte\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-docblock\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/bower-asset/slick-carousel\" />\r\n      <path value=\"$PROJECT_DIR$/basic/vendor/evgeniyrru/yii2-slick\" />\r\n    </include_path>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1c0CsTgq1Gd6vMHP0TKVPvld66F\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"DatabaseDriversLRU\" value=\"mysql\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"true\" />\r\n    <property name=\"com.intellij.database.dataSource.DataSourceTemplate\" value=\"MySQL\" />\r\n    <property name=\"database.console.LAST_STATE\" value=\"false\" />\r\n    <property name=\"database.data.extractors.current.id\" value=\"SQL Inserts\" />\r\n    <property name=\"last_opened_file_path\" value=\"$USER_HOME$/Desktop/kulupsistemi_kulupler.sql\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\xampp\\htdocs\\kulüp-yönetim-sistemi\\basic\\views\\site\" />\r\n      <recent name=\"C:\\xampp\\htdocs\\kulüp-yönetim-sistemi\\basic\\web\\img\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\xampp\\htdocs\\kulüp-yönetim-sistemi\\basic\\views\\events\" />\r\n      <recent name=\"C:\\xampp\\htdocs\\kulüp-yönetim-sistemi\\basic\\views\\user\" />\r\n      <recent name=\"C:\\xampp\\htdocs\\kulüp-yönetim-sistemi\\basic\\views\\kulup\" />\r\n      <recent name=\"C:\\xampp\\htdocs\\kulüp-yönetim-sistemi\\basic\\web\\img\" />\r\n      <recent name=\"C:\\xampp\\htdocs\\kulüp-yönetim-sistemi\\basic\\views\\site\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"index.php\" type=\"PhpLocalRunConfigurationType\" factoryName=\"PHP Console\" temporary=\"true\" path=\"$PROJECT_DIR$/basic/web/index.php\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"PHP Script.index.php\" />\r\n        <item itemvalue=\"PHP Script.index.php\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7db8a21f-f2fc-4745-b809-52ad0585648f\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1589656331026</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1589656331026</updated>\r\n      <workItem from=\"1589656332631\" duration=\"568000\" />\r\n      <workItem from=\"1589681159792\" duration=\"170000\" />\r\n      <workItem from=\"1589738611013\" duration=\"5003000\" />\r\n      <workItem from=\"1589806820149\" duration=\"22712000\" />\r\n      <workItem from=\"1589989800067\" duration=\"5446000\" />\r\n      <workItem from=\"1590094344873\" duration=\"9086000\" />\r\n      <workItem from=\"1590137627456\" duration=\"4368000\" />\r\n      <workItem from=\"1590239310344\" duration=\"5356000\" />\r\n      <workItem from=\"1590328550599\" duration=\"22118000\" />\r\n      <workItem from=\"1590419448952\" duration=\"2406000\" />\r\n      <workItem from=\"1590680500363\" duration=\"111000\" />\r\n      <workItem from=\"1590680894905\" duration=\"73000\" />\r\n      <workItem from=\"1590680983079\" duration=\"39000\" />\r\n      <workItem from=\"1590688791097\" duration=\"3756000\" />\r\n      <workItem from=\"1590782542835\" duration=\"7015000\" />\r\n      <workItem from=\"1590791413714\" duration=\"4054000\" />\r\n      <workItem from=\"1590843451474\" duration=\"2019000\" />\r\n      <workItem from=\"1591096555908\" duration=\"493000\" />\r\n      <workItem from=\"1591370219158\" duration=\"6748000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Db bilgileri eklendi\">\r\n      <created>1589681229942</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1589681229942</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Modeller eklendi.\">\r\n      <created>1589742471549</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1589742471549</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Kulüp profili için dashboard yapıldı ana sayfaları link bağlamak için oluşturuldu. KulupController oluşturuldu. GridView için kulüp kart gösterimi yapıldı.\">\r\n      <created>1589840695615</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1589840695615</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Tekli etkinlik gösterimi (card-img-top)\">\r\n      <created>1590103764135</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1590103764135</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Tekli etkinlik gösterimi (card-img-top)\">\r\n      <created>1590250042808</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1590250042808</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Etkinlik butonu disable kısmı yapıldı\">\r\n      <created>1590280798997</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1590280798997</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Etkinlik sayfaso responsive yapıldı\">\r\n      <created>1590281429889</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1590281429889</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Kulup ana sayfa, etkinlik sayfası, gridView için item olarak gösterimleri ve bildirimler sayfası bitti. Dropdown menu item a bildirimler ve sayaç göstergesi eklendi\">\r\n      <created>1590357002596</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1590357002596</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Kulup ana sayfa, etkinlik sayfası, gridView için item olarak gösterimleri ve bildirimler sayfası bitti. Dropdown menu item a bildirimler ve sayaç göstergesi eklendi\">\r\n      <created>1590691152953</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1590691152953</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Database connection for clubs list page established\">\r\n      <created>1590789037599</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1590789037600</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Database connection for clubs list page established\">\r\n      <created>1590793606727</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1590793606727</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Database connection for clubs list page established\">\r\n      <created>1590793724780</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1590793724780</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Database connection for club profile, recent events page title established\">\r\n      <created>1590795461673</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1590795461673</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Controllers fixed /1\">\r\n      <created>1591373412309</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1591373412309</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/hakan\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n    <option name=\"CHECK_NEW_TODO\" value=\"false\" />\r\n    <MESSAGE value=\"Db bilgileri eklendi\" />\r\n    <MESSAGE value=\"Modeller eklendi.\" />\r\n    <MESSAGE value=\"Kulüp profili için dashboard yapıldı ana sayfaları link bağlamak için oluşturuldu. KulupController oluşturuldu. GridView için kulüp kart gösterimi yapıldı.\" />\r\n    <MESSAGE value=\"Tekli etkinlik gösterimi (card-img-top)\" />\r\n    <MESSAGE value=\"Etkinlik butonu disable kısmı yapıldı\" />\r\n    <MESSAGE value=\"Etkinlik sayfaso responsive yapıldı\" />\r\n    <MESSAGE value=\"Kulup ana sayfa, etkinlik sayfası, gridView için item olarak gösterimleri ve bildirimler sayfası bitti. Dropdown menu item a bildirimler ve sayaç göstergesi eklendi\" />\r\n    <MESSAGE value=\"Database connection for clubs list page established\" />\r\n    <MESSAGE value=\"Database connection for club profile, recent events page title established\" />\r\n    <MESSAGE value=\"Controllers fixed /1\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Controllers fixed /1\" />\r\n    <option name=\"OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n    <option name=\"REFORMAT_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n    <option name=\"REARRANGE_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"361\" y=\"71\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1590691376630\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"361\" y=\"71\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824\" timestamp=\"1590688874568\" />\r\n    <state x=\"361\" y=\"71\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1590691376630\" />\r\n    <state x=\"499\" y=\"167\" key=\"#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog\" timestamp=\"1591371180924\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"499\" y=\"167\" key=\"#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1591371180924\" />\r\n    <state x=\"0\" y=\"0\" key=\"CommitChangelistDialog2\" timestamp=\"1591373411427\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"-1529\" y=\"0\" key=\"CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824\" timestamp=\"1590688874568\" />\r\n    <state x=\"391\" y=\"0\" key=\"CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824\" timestamp=\"1590688874568\" />\r\n    <state x=\"0\" y=\"0\" key=\"CommitChangelistDialog2/0.0.1536.824@0.0.1536.824\" timestamp=\"1591373411427\" />\r\n    <state x=\"532\" y=\"323\" key=\"ComposerInitDialogKey\" timestamp=\"1590688874568\" />\r\n    <state x=\"532\" y=\"323\" key=\"ComposerInitDialogKey/0.0.1536.824/-1920.0.1536.824@0.0.1536.824\" timestamp=\"1590688874568\" />\r\n    <state x=\"549\" y=\"167\" key=\"FileChooserDialogImpl\" timestamp=\"1591376201075\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"549\" y=\"167\" key=\"FileChooserDialogImpl/0.0.1536.824@0.0.1536.824\" timestamp=\"1591376201075\" />\r\n    <state width=\"1024\" height=\"210\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1591377213079\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state width=\"1024\" height=\"210\" key=\"GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824\" timestamp=\"1591377213079\" />\r\n    <state width=\"1024\" height=\"210\" key=\"GridCell.Tab.0.center\" timestamp=\"1591377213079\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state width=\"1024\" height=\"210\" key=\"GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824\" timestamp=\"1591377213079\" />\r\n    <state width=\"1024\" height=\"210\" key=\"GridCell.Tab.0.left\" timestamp=\"1591377213079\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state width=\"1024\" height=\"210\" key=\"GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824\" timestamp=\"1591377213079\" />\r\n    <state width=\"1024\" height=\"210\" key=\"GridCell.Tab.0.right\" timestamp=\"1591377213079\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state width=\"1024\" height=\"210\" key=\"GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824\" timestamp=\"1591377213079\" />\r\n    <state x=\"177\" y=\"83\" key=\"MergeDialog\" timestamp=\"1590688874568\" />\r\n    <state x=\"177\" y=\"83\" key=\"MergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824\" timestamp=\"1590688874568\" />\r\n    <state x=\"370\" y=\"114\" width=\"837\" height=\"455\" key=\"MultipleFileMergeDialog\" timestamp=\"1590791439725\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"370\" y=\"114\" width=\"855\" height=\"632\" key=\"MultipleFileMergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824\" timestamp=\"1590688874568\" />\r\n    <state x=\"370\" y=\"114\" width=\"837\" height=\"455\" key=\"MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1590791439725\" />\r\n    <state x=\"516\" y=\"135\" key=\"NewPhpClassDialog\" timestamp=\"1591372523673\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"516\" y=\"135\" key=\"NewPhpClassDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1591372523673\" />\r\n    <state x=\"604\" y=\"336\" key=\"NewPhpFileDialog\" timestamp=\"1590790720604\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"604\" y=\"336\" key=\"NewPhpFileDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1590790720604\" />\r\n    <state x=\"361\" y=\"141\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1591373414444\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"-1559\" y=\"141\" key=\"Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824\" timestamp=\"1590688874568\" />\r\n    <state x=\"361\" y=\"141\" key=\"Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824\" timestamp=\"1590688874568\" />\r\n    <state x=\"361\" y=\"141\" key=\"Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824\" timestamp=\"1591373414444\" />\r\n    <state x=\"603\" y=\"300\" width=\"330\" height=\"243\" key=\"com.intellij.database.actions.DdlActions$DeleteProvider2$1\" timestamp=\"1591375754518\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"603\" y=\"300\" width=\"330\" height=\"243\" key=\"com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824\" timestamp=\"1591375754518\" />\r\n    <state x=\"349\" y=\"67\" key=\"com.intellij.database.dbimport.ImportDialog\" timestamp=\"1591376205361\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"349\" y=\"67\" key=\"com.intellij.database.dbimport.ImportDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1591376205361\" />\r\n    <state x=\"499\" y=\"217\" key=\"com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog\" timestamp=\"1590787559300\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"499\" y=\"217\" key=\"com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1590787559300\" />\r\n    <state x=\"-1343\" y=\"322\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1590688874568\" />\r\n    <state x=\"-1343\" y=\"322\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824\" timestamp=\"1590688874568\" />\r\n    <state x=\"464\" y=\"201\" key=\"git4idea.merge.GitPullDialog\" timestamp=\"1590793772727\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"464\" y=\"201\" key=\"git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824\" timestamp=\"1590793772727\" />\r\n    <state x=\"425\" y=\"187\" key=\"run.anything.popup\" timestamp=\"1591373143188\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"425\" y=\"187\" key=\"run.anything.popup/0.0.1536.824@0.0.1536.824\" timestamp=\"1591373143188\" />\r\n    <state x=\"431\" y=\"145\" width=\"672\" height=\"678\" key=\"search.everywhere.popup\" timestamp=\"1590688874568\" />\r\n    <state x=\"431\" y=\"145\" width=\"672\" height=\"678\" key=\"search.everywhere.popup/0.0.1536.824/-1920.0.1536.824@0.0.1536.824\" timestamp=\"1590688874568\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"php\">\r\n          <url>file://$PROJECT_DIR$/basic/views/kulup/kulup.php</url>\r\n          <line>1</line>\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision bc3c6a1a2a86e0b40bd70efb8cfe5c37d30c07b6)
++++ .idea/workspace.xml	(date 1592306578987)
+@@ -21,16 +21,29 @@
+         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="BRANCH:origin/hakan" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="BRANCH:origin/deniz" type="e8cecc67:BranchNodeDescriptor" />
+       </path>
+     </select>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="Controllers fixed /1">
+-      <change afterPath="$PROJECT_DIR$/basic/views/site/istatistikler.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
++    <list default="true" id="7db8a21f-f2fc-4745-b809-52ad0585648f" name="Default Changelist" comment="fixed">
++      <change afterPath="$PROJECT_DIR$/basic/web/img/black_200.png" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/controllers/DashboardController.php" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/controllers/EventsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/EventsController.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/KulupKayitForm.php" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/dashboard/about.php" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/dashboard/contact.php" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/events/_etkinlik_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/events/_etkinlik_item.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/events/event.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/events/event.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/events/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/events/index.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/kulup/_kulup_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/kulup/_kulup_item.php" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/basic/views/kulup/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/kulup/profile.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/layouts/basic.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/layouts/basic.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/layouts/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/layouts/dashboard.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/layouts/main.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/site/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/login.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/basic/views/user/bildirimler.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/user/bildirimler.php" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -42,12 +55,12 @@
+     <execution />
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="deniz" />
+       </map>
+     </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+     <include_path>
+@@ -159,10 +172,10 @@
+       <recent name="C:\xampp\htdocs\kulüp-yönetim-sistemi\basic\web\img" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\xampp\htdocs\kulüp-yönetim-sistemi\basic\web\img" />
+       <recent name="C:\xampp\htdocs\kulüp-yönetim-sistemi\basic\views\events" />
+       <recent name="C:\xampp\htdocs\kulüp-yönetim-sistemi\basic\views\user" />
+       <recent name="C:\xampp\htdocs\kulüp-yönetim-sistemi\basic\views\kulup" />
+-      <recent name="C:\xampp\htdocs\kulüp-yönetim-sistemi\basic\web\img" />
+       <recent name="C:\xampp\htdocs\kulüp-yönetim-sistemi\basic\views\site" />
+     </key>
+   </component>
+@@ -206,6 +219,10 @@
+       <workItem from="1590843451474" duration="2019000" />
+       <workItem from="1591096555908" duration="493000" />
+       <workItem from="1591370219158" duration="6748000" />
++      <workItem from="1591998755917" duration="7072000" />
++      <workItem from="1592044642467" duration="12220000" />
++      <workItem from="1592142309537" duration="213000" />
++      <workItem from="1592305386322" duration="1015000" />
+     </task>
+     <task id="LOCAL-00001" summary="Db bilgileri eklendi">
+       <created>1589681229942</created>
+@@ -305,7 +322,35 @@
+       <option name="project" value="LOCAL" />
+       <updated>1591373412309</updated>
+     </task>
+-    <option name="localTasksCounter" value="15" />
++    <task id="LOCAL-00015" summary="fixed">
++      <created>1591999702209</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1591999702209</updated>
++    </task>
++    <task id="LOCAL-00016" summary="Databinding semi completed">
++      <created>1592005659525</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1592005659525</updated>
++    </task>
++    <task id="LOCAL-00017" summary="fixed">
++      <created>1592005730235</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1592005730235</updated>
++    </task>
++    <task id="LOCAL-00018" summary="todos">
++      <created>1592047104142</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1592047104142</updated>
++    </task>
++    <option name="localTasksCounter" value="19" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -322,7 +367,14 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="origin/hakan" />
++                        <option value="origin/master" />
++                      </list>
++                    </value>
++                  </entry>
++                  <entry key="user">
++                    <value>
++                      <list>
++                        <option value="*" />
+                       </list>
+                     </value>
+                   </entry>
+@@ -333,6 +385,32 @@
+         </entry>
+       </map>
+     </option>
++    <option name="RECENT_FILTERS">
++      <map>
++        <entry key="Branch">
++          <value>
++            <list>
++              <RecentGroup>
++                <option name="FILTER_VALUES">
++                  <option value="origin/master" />
++                </option>
++              </RecentGroup>
++            </list>
++          </value>
++        </entry>
++        <entry key="User">
++          <value>
++            <list>
++              <RecentGroup>
++                <option name="FILTER_VALUES">
++                  <option value="*" />
++                </option>
++              </RecentGroup>
++            </list>
++          </value>
++        </entry>
++      </map>
++    </option>
+     <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+@@ -348,7 +426,10 @@
+     <MESSAGE value="Database connection for clubs list page established" />
+     <MESSAGE value="Database connection for club profile, recent events page title established" />
+     <MESSAGE value="Controllers fixed /1" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Controllers fixed /1" />
++    <MESSAGE value="Databinding semi completed" />
++    <MESSAGE value="fixed" />
++    <MESSAGE value="todos" />
++    <option name="LAST_COMMIT_MESSAGE" value="todos" />
+     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+@@ -359,18 +440,22 @@
+     </state>
+     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
+     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590691376630" />
+-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591371180924">
++    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592005074930">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591371180924" />
+-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1591373411427">
++    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592005074930" />
++    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592047103048">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+     <state x="-1529" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590688874568" />
+     <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
+-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591373411427" />
++    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592047103048" />
+     <state x="532" y="323" key="ComposerInitDialogKey" timestamp="1590688874568" />
+     <state x="532" y="323" key="ComposerInitDialogKey/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
++    <state x="0" y="65" key="DiffContextDialog" timestamp="1592005710821">
++      <screen x="0" y="0" width="1536" height="824" />
++    </state>
++    <state x="0" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1592005710821" />
+     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1591376201075">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+@@ -406,12 +491,12 @@
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1590790720604" />
+-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1591373414444">
++    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1592047107158">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+     <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590688874568" />
+     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
+-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591373414444" />
++    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592047107158" />
+     <state x="603" y="300" width="330" height="243" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1591375754518">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+@@ -424,27 +509,21 @@
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+     <state x="499" y="217" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1536.824@0.0.1536.824" timestamp="1590787559300" />
++    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592003468525">
++      <screen x="0" y="0" width="1536" height="824" />
++    </state>
++    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1592003468525" />
+     <state x="-1343" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590688874568" />
+     <state x="-1343" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1590688874568" />
+-    <state x="464" y="201" key="git4idea.merge.GitPullDialog" timestamp="1590793772727">
++    <state x="464" y="201" key="git4idea.merge.GitPullDialog" timestamp="1591999804929">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+-    <state x="464" y="201" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1590793772727" />
+-    <state x="425" y="187" key="run.anything.popup" timestamp="1591373143188">
++    <state x="464" y="201" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1591999804929" />
++    <state x="425" y="187" key="run.anything.popup" timestamp="1592044834229">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591373143188" />
++    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1592044834229" />
+     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590688874568" />
+     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590688874568" />
+   </component>
+-  <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" type="php">
+-          <url>file://$PROJECT_DIR$/basic/views/kulup/kulup.php</url>
+-          <line>1</line>
+-        </line-breakpoint>
+-      </breakpoints>
+-    </breakpoint-manager>
+-  </component>
+ </project>
+\ No newline at end of file
