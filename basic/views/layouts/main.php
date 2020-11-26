@@ -43,7 +43,7 @@ AppAsset::register($this);
             'items' => [
                 ['label' => 'Anasayfa', 'url' => ['/site/index']],
                 ['label' => 'Kulüpler', 'url' => ['/kulup/index']],
-                ['label' => 'İstatistikler', 'url' => ['/site/contact']],
+                ['label' => 'İstatistikler', 'url' => ['/site/istatistikler']],
                 Yii::$app->user->isGuest ? (
                 ['label' => 'Giriş yap', 'url' => ['/site/login']]
                 ) : (

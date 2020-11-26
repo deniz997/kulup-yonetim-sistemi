@@ -78,6 +78,12 @@
       <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/basic/vendor/bower-asset/slick-carousel" />
       <path value="$PROJECT_DIR$/basic/vendor/evgeniyrru/yii2-slick" />
+      <path value="$PROJECT_DIR$/basic/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/deprecation-contracts" />
     </include_path>
   </component>
 </project>
